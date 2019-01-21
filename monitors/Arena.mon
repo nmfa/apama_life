@@ -1,0 +1,118 @@
+//*****************************************************************************
+// Title:         Arena
+// Description:   Manages the environment for the cell automata.
+// Dependencies:  None
+// Author:        nadams
+//
+//*****************************************************************************
+
+using com.apama.dataview.DataViewAddDefinition;
+using com.apama.dataview.DataViewAddItem;
+using com.apama.dataview.DataViewUpdateItem;
+
+/**
+ * The Arena monitor controls the cell automata environment.
+ * This is done by triggering the generation of the cells,
+ * creating the dataview for the cell info. to be displayed
+ * and controlling the automatic flow of time.
+ */
+monitor Arena
+{
+	integer width;
+	integer height;
+	integer tickCount := 0;
+	
+	/**
+	 * Generates the the new arena and dataview.
+	 * @listens CreateArena Creates the new arena and dataview.
+	 * @listens StartTime Starts the automated flow of time.
+	 * @listens Tick Counts the number of ticks that have passed.
+	 * @enqueues CreateCells Triggers the creation of the environment's cells.
+	 */
+	action onload()
+	{
+		CreateArena newArena;
+		
+		on CreateArena():newArena
+		{
+			width := newArena.width;
+			height := newArena.height;
+			DataViewAddDefinition arena := new DataViewAddDefinition;
+			arena.dvName := "Arena";
+			arena.dvDisplayName := "Arena";
+			arena.fieldNames := ["x", "y", "alive"];
+			arena.fieldTypes := ["integer", "integer", "boolean"];
+			arena.keyFields := ["x", "y"];
+			route arena;
+			
+			DataViewAddDefinition data := new DataViewAddDefinition;
+			data.dvName := "Data";
+			data.dvDisplayName := "Data";
+			data.fieldNames := ["field", "value"];
+			data.fieldTypes := ["string", "string"];
+			data.keyFields := ["field"];
+			route data;
+			
+			DataViewAddItem item := new DataViewAddItem;
+			item.msgId := "";
+			item.dvName := "Data";
+			item.owner := "*";
+			item.timeStamp := -1.0;
+			item.fieldValues := ["tickCount", tickCount.toString()];
+			route item;
+
+			on StartTime() autoTick();
+			
+			on all Tick() onTick();
+			
+			IsOccupied occ;
+			on all IsOccupied(targetX < 1) :occ or
+			   all IsOccupied(targetX > width) :occ or
+			   all IsOccupied(targetY < 1) :occ or
+			   all IsOccupied(targetY > height) :occ
+			{
+				route Occupied(occ.requesterX,
+				               occ.requesterY,
+				               occ.targetX,
+				               occ.targetY);
+			}
+
+			log "ARENA loaded" at INFO;
+		}
+	}
+	
+	/**
+	 * Triggers each quantum of time.
+	 * @listens StopTime Stops automated time.
+	 * @listens StartTime If StopTime received then resets a listener for restarting time.
+	 */
+	action autoTick()
+	{
+		on not StopTime() and all wait(1.0) {enqueue Tick();}
+		
+		on StopTime() {on StartTime() autoTick();}
+	}
+	
+	/**
+	 * Increment tick count and update dataview.
+	 */
+	action onTick()
+	{
+		tickCount := tickCount + 1;
+		string sTickTock;
+		if tickCount % 2 = 0 then
+		{
+			sTickTock := "Tock: ";
+		}
+		else
+		{
+			sTickTock := "Tick: ";
+		}
+		log sTickTock + tickCount.toString() at INFO;
+		DataViewUpdateItem item := new DataViewUpdateItem;
+		item.dvName := "Data";
+		item.dvItemId := -1;
+		item.fieldValues := ["tickCount", tickCount.toString()];
+		enqueue item;
+	}
+}

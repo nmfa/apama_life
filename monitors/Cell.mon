@@ -1,0 +1,216 @@
+//*****************************************************************************
+// Title:         Cell
+// Description:   Cell description
+// Dependencies:  None
+// Author:        nadams
+//
+//*****************************************************************************
+
+using com.apama.dataview.DataViewAddItem;
+using com.apama.dataview.DataViewDeleteItem;
+
+/**
+ * The cell monitor simulates each cell within the environment.
+ */
+monitor Cell
+{
+	/**
+	 * Broadcast the status of the cell at the gievn coordinates.
+	 */
+	event Status
+	{
+		integer x;
+		integer y;
+		wildcard boolean bAlive;
+	}
+
+	integer xPos;
+	integer yPos;
+	boolean bAlive := false;
+	integer liveNeighbours := 0;
+	
+	/**
+	 * Creates a start up listener which then generates all the cells for the environment.
+	 * @listens CreateCells Triggers cell generation for the environment.
+	 */
+	action onload()
+	{
+		IsOccupied occ;
+//		on all unmatched IsOccupied() :occ {route Occupied(occ.requesterX,
+//		                                                   occ.requesterY,
+//		                                                   occ.targetX,
+//		                                                   occ.targetY,
+//		                                                   false);}
+	
+		BirthCell newBirth;
+		on all unmatched BirthCell() :newBirth birth(newBirth.x, newBirth.y);
+	}
+	
+	action birth(integer x, integer y)
+	{
+		spawn setLocation(x, y, true);
+	}
+	
+	/**
+	 * Sets up the cell so that it knows where it is and its status.
+	 * @param x X position of the cell.
+	 * @param y Y position of the cell.
+	 * @listens BirthCell Bring this cell to life (if it isn't already alive).
+	 * @listens KillCell Kill this cell (if it isn't already dead).
+	 * @listens Tick Mark the passing of time and apply the rules of life.
+	 * @listens Status Keep an eye on the status of the cell's neighbours.
+	 */
+	action setLocation(integer x, integer y, boolean isAlive)
+	{
+		xPos := x;
+		yPos := y;
+		bAlive := false;
+		liveNeighbours := 0;
+		changeStatus(isAlive);
+		
+		on all BirthCell(xPos, yPos)
+		{
+		    changeStatus(true);
+		}
+		
+		on all (KillCell(xPos, yPos) or Kill())
+		{
+		    changeStatus(false);
+		}
+		
+		on all Tick() metabolize();
+		
+		Status status;
+		on all Status([xPos - 1 : xPos + 1], [yPos - 1 : yPos + 1], *): status neighbourStatus(status);
+		
+		IsOccupied isOcc;
+		on all IsOccupied(*, *, x, y):isOcc {route Occupied(isOcc.requesterX, isOcc.requesterY, x, y);}
+		
+		log "Spawned cell " + x.toString() + "," + y.toString() at INFO;
+	}
+	
+	action neighbourStatus(Status status)
+	{
+	    if not (status.x = xPos and status.y = yPos) then
+		{
+	    	if status.bAlive = true then
+	    	{
+	    		liveNeighbours := liveNeighbours + 1;
+	    	}
+	    	else
+	    	{
+	    		liveNeighbours := liveNeighbours - 1;
+	    	}
+		}
+	}
+	
+	/**
+	 * Applies rules of life. Currently:
+	 * If 2 neighbours then no change to status.
+	 * If 3 neighbours then come alive.
+	 * Otherwise die.
+	 */
+	action metabolize()
+	{
+		if not bAlive and liveNeighbours = 0 then
+		{
+			log "Killed cell " + xPos.toString() + "," + yPos.toString() at INFO;
+			die;
+		}
+		
+		if liveNeighbours = 3 then
+		{
+			changeStatus(true);
+		}
+		else if liveNeighbours = 2 then
+		{
+			// No change
+		}
+		else
+		{
+			changeStatus(false);
+		}
+	}
+	
+	/**
+	 * Actions when the cell's status changes.
+	 * Ensure that first of all the status has actually changed rather
+	 * than just an attempting to reinforce the existing cell state.
+	 * Enqueues a change of status message and calls DataView().
+	 * @param newStatus The new status of the cell.
+	 * @enqueues Status Broadcast the fact of birth or death.
+	 */
+	action changeStatus(boolean newStatus)
+	{
+		if not newStatus = bAlive then
+		{
+			bAlive := newStatus;
+			if bAlive = true then
+			{
+				activateSurrounds();
+			}
+			route Status(xPos, yPos, bAlive);
+			dataView();
+			log "Cell " + xPos.toString() + "," + yPos.toString() + " Alive: " + bAlive.toString() at INFO;
+		}
+	}
+	
+	/**
+	 * Change the state of the data held in the DataView:
+	 * ie: add location to table if cell is alive or remove it
+	 * on death.
+	 * @enqueues DataViewAddItem If the cell has been birthed.
+	 * @enqueues DataViewDeleteItem If the cell has died.
+	 */
+	action dataView()
+	{
+		if bAlive then
+		{
+			DataViewAddItem item := new DataViewAddItem;
+			item.msgId := "";
+			item.dvName := "Arena";
+			item.owner := "*";
+			item.timeStamp := -1.0;
+			item.fieldValues := [xPos.toString(), yPos.toString(), bAlive.toString()];
+			route item;
+		}
+		else
+		{
+			DataViewDeleteItem item := new DataViewDeleteItem;
+			item.msgId := "";
+			item.dvName := "Arena";
+			item.dvItemId := -1;
+			item.keyFields := [xPos.toString(), yPos.toString()]; 
+			route item;
+		}
+	}
+	
+	action activateSurrounds()
+	{
+	    integer i := xPos - 1;
+	    while i <= xPos + 1
+	    {
+	    	integer j := yPos - 1;
+	    	while j <= yPos + 1
+	    	{
+	    		if not (i = xPos and j = yPos) then
+	    		{
+	    			activateStep1(i, j);    		
+	    		}
+	    		j := j + 1;
+	    	}
+	    	i := i + 1;
+	    }
+	}
+
+	action activateStep1(integer x, integer y)
+	{
+	    route IsOccupied(xPos, yPos, x, y);
+	    on completed IsOccupied(xPos, yPos, x, y) and not Occupied(xPos, yPos, x, y) activateStep2(x, y);
+	}
+	
+	action activateStep2(integer x, integer y)
+	{
+	    spawn setLocation(x, y, false);
+	}
+}

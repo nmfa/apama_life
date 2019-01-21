@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<pysystest type="auto" state="runnable">
+    
+  <description> 
+    <title>Start With A Diagonal Moving Pattern</title>    
+    <purpose><![CDATA[After each 4 ticks the starting pattern will move up and right by one cell returning to its original layout. Ensure that trailing dead cells are unloaded.]]>
+    </purpose>
+  </description>
+
+  <classification>
+    <groups>
+      <group></group>
+    </groups>
+  </classification>
+
+  <data>
+    <class name="PySysTest" module="run"/>
+  </data>
+  
+  <traceability>
+    <requirements>
+      <requirement id=""/>     
+    </requirements>
+  </traceability>
+</pysystest>

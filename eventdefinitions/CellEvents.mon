@@ -1,0 +1,48 @@
+//*****************************************************************************
+// Title:         CellEvents
+// Description:   CellEvents description
+// Dependencies:  None
+// Author:        nadams
+//
+//*****************************************************************************
+
+
+/**
+ * Birth a cell at the given coordinates.
+ */
+event BirthCell
+{
+	integer x;
+	integer y;
+}
+
+/**
+ * Kill the cell at the given coordinates.
+ */
+event KillCell
+{
+	integer x;
+	integer y;
+}
+
+/**
+ * Discover if cell is active.
+ */
+event IsOccupied
+{
+	integer requesterX;
+	integer requesterY;
+	integer targetX;
+	integer targetY;
+}
+
+/**
+ * Response to IsOccupied
+ */
+event Occupied
+{
+	integer requesterX;
+	integer requesterY;
+	integer targetX;
+	integer targetY;
+}

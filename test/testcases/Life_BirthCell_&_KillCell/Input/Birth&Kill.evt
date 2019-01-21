@@ -1,0 +1,38 @@
+// Have to create an arena to work in.
+CreateArena(10, 10)
+
+BATCH 200
+
+// Birth cell with 8 neighbouring cells monitoring.
+BirthCell(2, 2)
+// Shared corner -> no 3,3 spawn
+BirthCell(4, 4)
+// Edge - Check < 0 x location
+BirthCell(1, 5)
+// Corner - Checks > width x location && < 0 y location
+BirthCell(10, 1)
+// Independent
+BirthCell(5, 7)
+// Share one side -> no 6,6 6,7 or 6,8 spawn
+BirthCell(7, 7)
+// Neighbour
+BirthCell(5, 4)
+
+// Attempt to birth a cell which is already alive.
+// Should have no detectable effect.
+BirthCell(5, 7)
+
+// Kill a couple of the cells.
+// NO cells erased as that only happens with time.
+KillCell(2, 2)
+KillCell(10, 1)
+
+// Attempt to kill a cell which is already dead.
+// Should have no detectable effect.
+KillCell(3, 4)
+
+// Attempt to kill a cell with no monitor
+KillCell(9, 9)
+
+// Sterilize the arena.
+Kill()

@@ -1,0 +1,661 @@
+2011-01-26 05:36:31,060 INFO  [main] - Log4JLogger.initLoggingSystem() - Configured logging based on a log4j config file. Using those settings and will IGNORE all APAMA_LOG system properties.
+2011-01-26 05:36:31,060 INFO  [main] - 
+2011-01-26 05:36:31,060 INFO  [main] - ================================================================================
+2011-01-26 05:36:31,060 INFO  [main] - Java logging begins at: Jan 26, 2011 5:36:30 AM
+2011-01-26 05:36:31,060 INFO  [main] - Apama Platform Version: releases/4.3.1_HF@151012
+2011-01-26 05:36:31,060 INFO  [main] - ================================================================================
+2011-01-26 05:36:31,060 INFO  [main] - 
+2011-01-26 05:36:31,232 ERROR [main] - AbstractGuiMain.initializePreferences(): java.io.FileNotFoundException: C:\Documents and Settings\Administrator\apama-work\dashboards\preferences.xml (Access is denied)
+2011-01-26 05:36:31,325 CRIT  [main] - Input value - extensionFile        = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\EXTENSIONS.ini
+2011-01-26 05:36:31,325 CRIT  [main] - Input value - jaasFile             = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\JAAS.ini
+2011-01-26 05:36:31,325 CRIT  [main] - Input value - optionsFile          = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\OPTIONS.ini
+2011-01-26 05:36:31,325 CRIT  [main] - Input value - disconnectWarning    = false
+2011-01-26 05:36:31,325 CRIT  [main] - Input value - nosplash             = true
+2011-01-26 05:36:31,325 CRIT  [main] - Input value - file                 = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-26 05:36:31,325 CRIT  [main] - Input value - direct               = true
+2011-01-26 05:36:31,325 CRIT  [main] - Input value - singleClick          = false
+2011-01-26 05:36:31,325 CRIT  [main] - Input value - doubleClick          = false
+2011-01-26 05:36:31,325 CRIT  [main] - Input value - nomenus              = false
+2011-01-26 05:36:31,325 CRIT  [main] - Input value - xmlRedirect          = false
+2011-01-26 05:36:31,325 CRIT  [main] - Configurations:
+2011-01-26 05:36:31,325 CRIT  [main] - 	disable_cacheds
+2011-01-26 05:36:31,325 CRIT  [main] - 	nohistory
+2011-01-26 05:36:31,325 CRIT  [main] - 	:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-26 05:36:31,325 CRIT  [main] - 	n576
+2011-01-26 05:36:31,325 CRIT  [main] - 	customds:com.apama.sl.data.scenario.ScenarioDataSource
+2011-01-26 05:36:31,325 CRIT  [main] - 	customds:com.sl.gmsjsqlds.GmsRtViewSqlDs
+2011-01-26 05:36:31,325 CRIT  [main] - 	max_displays:null
+2011-01-26 05:36:31,325 CRIT  [main] - Apama dashboard_viewer 4.3.1.1, started.
+2011-01-26 05:36:31,325 CRIT  [main] - Running on host 'nbcamspare2'.
+2011-01-26 05:36:47,153 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_0") Disconnected by the engine: Connection closed
+2011-01-26 05:36:47,153 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_3") Disconnected by the engine: Connection closed
+2011-01-26 05:36:47,153 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_2") Disconnected by the engine: Connection closed
+2011-01-26 05:37:34,354 INFO  [main] - Log4JLogger.initLoggingSystem() - Configured logging based on a log4j config file. Using those settings and will IGNORE all APAMA_LOG system properties.
+2011-01-26 05:37:34,370 INFO  [main] - 
+2011-01-26 05:37:34,370 INFO  [main] - ================================================================================
+2011-01-26 05:37:34,370 INFO  [main] - Java logging begins at: Jan 26, 2011 5:37:34 AM
+2011-01-26 05:37:34,370 INFO  [main] - Apama Platform Version: releases/4.3.1_HF@151012
+2011-01-26 05:37:34,370 INFO  [main] - ================================================================================
+2011-01-26 05:37:34,370 INFO  [main] - 
+2011-01-26 05:37:34,542 ERROR [main] - AbstractGuiMain.initializePreferences(): java.io.FileNotFoundException: C:\Documents and Settings\Administrator\apama-work\dashboards\preferences.xml (Access is denied)
+2011-01-26 05:37:34,635 CRIT  [main] - Input value - extensionFile        = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\EXTENSIONS.ini
+2011-01-26 05:37:34,635 CRIT  [main] - Input value - jaasFile             = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\JAAS.ini
+2011-01-26 05:37:34,635 CRIT  [main] - Input value - optionsFile          = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\OPTIONS.ini
+2011-01-26 05:37:34,635 CRIT  [main] - Input value - disconnectWarning    = false
+2011-01-26 05:37:34,635 CRIT  [main] - Input value - nosplash             = true
+2011-01-26 05:37:34,635 CRIT  [main] - Input value - file                 = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-26 05:37:34,635 CRIT  [main] - Input value - direct               = true
+2011-01-26 05:37:34,635 CRIT  [main] - Input value - singleClick          = false
+2011-01-26 05:37:34,635 CRIT  [main] - Input value - doubleClick          = false
+2011-01-26 05:37:34,635 CRIT  [main] - Input value - nomenus              = false
+2011-01-26 05:37:34,635 CRIT  [main] - Input value - xmlRedirect          = false
+2011-01-26 05:37:34,635 CRIT  [main] - Configurations:
+2011-01-26 05:37:34,635 CRIT  [main] - 	disable_cacheds
+2011-01-26 05:37:34,635 CRIT  [main] - 	nohistory
+2011-01-26 05:37:34,635 CRIT  [main] - 	:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-26 05:37:34,635 CRIT  [main] - 	n576
+2011-01-26 05:37:34,635 CRIT  [main] - 	customds:com.apama.sl.data.scenario.ScenarioDataSource
+2011-01-26 05:37:34,635 CRIT  [main] - 	customds:com.sl.gmsjsqlds.GmsRtViewSqlDs
+2011-01-26 05:37:34,635 CRIT  [main] - 	max_displays:null
+2011-01-26 05:37:34,635 CRIT  [main] - Apama dashboard_viewer 4.3.1.1, started.
+2011-01-26 05:37:34,635 CRIT  [main] - Running on host 'nbcamspare2'.
+2011-01-26 06:04:07,324 INFO  [main] - Log4JLogger.initLoggingSystem() - Configured logging based on a log4j config file. Using those settings and will IGNORE all APAMA_LOG system properties.
+2011-01-26 06:04:07,324 INFO  [main] - 
+2011-01-26 06:04:07,324 INFO  [main] - ================================================================================
+2011-01-26 06:04:07,324 INFO  [main] - Java logging begins at: Jan 26, 2011 6:04:07 AM
+2011-01-26 06:04:07,324 INFO  [main] - Apama Platform Version: releases/4.3.1_HF@151012
+2011-01-26 06:04:07,324 INFO  [main] - ================================================================================
+2011-01-26 06:04:07,324 INFO  [main] - 
+2011-01-26 06:04:07,512 ERROR [main] - AbstractGuiMain.initializePreferences(): java.io.FileNotFoundException: C:\Documents and Settings\Administrator\apama-work\dashboards\preferences.xml (Access is denied)
+2011-01-26 06:04:07,605 CRIT  [main] - Input value - extensionFile        = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\EXTENSIONS.ini
+2011-01-26 06:04:07,605 CRIT  [main] - Input value - jaasFile             = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\JAAS.ini
+2011-01-26 06:04:07,605 CRIT  [main] - Input value - optionsFile          = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\OPTIONS.ini
+2011-01-26 06:04:07,605 CRIT  [main] - Input value - disconnectWarning    = false
+2011-01-26 06:04:07,605 CRIT  [main] - Input value - nosplash             = true
+2011-01-26 06:04:07,605 CRIT  [main] - Input value - file                 = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-26 06:04:07,605 CRIT  [main] - Input value - direct               = true
+2011-01-26 06:04:07,605 CRIT  [main] - Input value - singleClick          = false
+2011-01-26 06:04:07,605 CRIT  [main] - Input value - doubleClick          = false
+2011-01-26 06:04:07,605 CRIT  [main] - Input value - nomenus              = false
+2011-01-26 06:04:07,605 CRIT  [main] - Input value - xmlRedirect          = false
+2011-01-26 06:04:07,605 CRIT  [main] - Configurations:
+2011-01-26 06:04:07,605 CRIT  [main] - 	disable_cacheds
+2011-01-26 06:04:07,605 CRIT  [main] - 	nohistory
+2011-01-26 06:04:07,605 CRIT  [main] - 	:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-26 06:04:07,605 CRIT  [main] - 	n576
+2011-01-26 06:04:07,605 CRIT  [main] - 	customds:com.apama.sl.data.scenario.ScenarioDataSource
+2011-01-26 06:04:07,605 CRIT  [main] - 	customds:com.sl.gmsjsqlds.GmsRtViewSqlDs
+2011-01-26 06:04:07,605 CRIT  [main] - 	max_displays:null
+2011-01-26 06:04:07,605 CRIT  [main] - Apama dashboard_viewer 4.3.1.1, started.
+2011-01-26 06:04:07,605 CRIT  [main] - Running on host 'nbcamspare2'.
+2011-01-26 06:06:15,351 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_0") Disconnected by the engine: Connection closed
+2011-01-26 06:06:15,351 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_2") Disconnected by the engine: Connection closed
+2011-01-26 06:06:15,351 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_3") Disconnected by the engine: Connection closed
+2011-01-26 06:36:51,561 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_5") Disconnected by the engine: Connection closed
+2011-01-26 06:36:51,577 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_7") Disconnected by the engine: Connection closed
+2011-01-26 06:36:51,577 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_4") Disconnected by the engine: Connection closed
+2011-01-26 06:36:51,577 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_6") Disconnected by the engine: Connection closed
+2011-01-26 06:49:56,797 ERROR [Apama messaging connection pool-2-thread-24] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_11") Disconnected by the engine: Connection closed
+2011-01-26 06:49:56,812 ERROR [Apama messaging connection pool-2-thread-24] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_10") Disconnected by the engine: Connection closed
+2011-01-26 06:49:56,828 ERROR [Apama messaging connection pool-2-thread-24] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_9") Disconnected by the engine: Connection closed
+2011-01-26 06:49:56,828 ERROR [Apama messaging connection pool-2-thread-24] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_8") Disconnected by the engine: Connection closed
+2011-01-26 08:45:16,515 INFO  [main] - Log4JLogger.initLoggingSystem() - Configured logging based on a log4j config file. Using those settings and will IGNORE all APAMA_LOG system properties.
+2011-01-26 08:45:16,515 INFO  [main] - 
+2011-01-26 08:45:16,515 INFO  [main] - ================================================================================
+2011-01-26 08:45:16,515 INFO  [main] - Java logging begins at: Jan 26, 2011 8:45:16 AM
+2011-01-26 08:45:16,515 INFO  [main] - Apama Platform Version: releases/4.3.1_HF@151012
+2011-01-26 08:45:16,515 INFO  [main] - ================================================================================
+2011-01-26 08:45:16,515 INFO  [main] - 
+2011-01-26 08:45:16,687 ERROR [main] - AbstractGuiMain.initializePreferences(): java.io.FileNotFoundException: C:\Documents and Settings\Administrator\apama-work\dashboards\preferences.xml (Access is denied)
+2011-01-26 08:45:16,797 CRIT  [main] - Input value - extensionFile        = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\EXTENSIONS.ini
+2011-01-26 08:45:16,797 CRIT  [main] - Input value - jaasFile             = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\JAAS.ini
+2011-01-26 08:45:16,797 CRIT  [main] - Input value - optionsFile          = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\OPTIONS.ini
+2011-01-26 08:45:16,797 CRIT  [main] - Input value - disconnectWarning    = false
+2011-01-26 08:45:16,797 CRIT  [main] - Input value - nosplash             = true
+2011-01-26 08:45:16,797 CRIT  [main] - Input value - file                 = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-26 08:45:16,797 CRIT  [main] - Input value - direct               = true
+2011-01-26 08:45:16,797 CRIT  [main] - Input value - singleClick          = false
+2011-01-26 08:45:16,797 CRIT  [main] - Input value - doubleClick          = false
+2011-01-26 08:45:16,797 CRIT  [main] - Input value - nomenus              = false
+2011-01-26 08:45:16,797 CRIT  [main] - Input value - xmlRedirect          = false
+2011-01-26 08:45:16,797 CRIT  [main] - Configurations:
+2011-01-26 08:45:16,797 CRIT  [main] - 	disable_cacheds
+2011-01-26 08:45:16,797 CRIT  [main] - 	nohistory
+2011-01-26 08:45:16,797 CRIT  [main] - 	:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-26 08:45:16,797 CRIT  [main] - 	n576
+2011-01-26 08:45:16,797 CRIT  [main] - 	customds:com.apama.sl.data.scenario.ScenarioDataSource
+2011-01-26 08:45:16,797 CRIT  [main] - 	customds:com.sl.gmsjsqlds.GmsRtViewSqlDs
+2011-01-26 08:45:16,797 CRIT  [main] - 	max_displays:null
+2011-01-26 08:45:16,797 CRIT  [main] - Apama dashboard_viewer 4.3.1.1, started.
+2011-01-26 08:45:16,812 CRIT  [main] - Running on host 'nbcamspare2'.
+2011-01-26 08:47:35,823 INFO  [main] - Log4JLogger.initLoggingSystem() - Configured logging based on a log4j config file. Using those settings and will IGNORE all APAMA_LOG system properties.
+2011-01-26 08:47:35,823 INFO  [main] - 
+2011-01-26 08:47:35,823 INFO  [main] - ================================================================================
+2011-01-26 08:47:35,823 INFO  [main] - Java logging begins at: Jan 26, 2011 8:47:35 AM
+2011-01-26 08:47:35,823 INFO  [main] - Apama Platform Version: releases/4.3.1_HF@151012
+2011-01-26 08:47:35,823 INFO  [main] - ================================================================================
+2011-01-26 08:47:35,823 INFO  [main] - 
+2011-01-26 08:47:35,994 ERROR [main] - AbstractGuiMain.initializePreferences(): java.io.FileNotFoundException: C:\Documents and Settings\Administrator\apama-work\dashboards\preferences.xml (Access is denied)
+2011-01-26 08:47:36,088 CRIT  [main] - Input value - extensionFile        = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\EXTENSIONS.ini
+2011-01-26 08:47:36,088 CRIT  [main] - Input value - jaasFile             = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\JAAS.ini
+2011-01-26 08:47:36,088 CRIT  [main] - Input value - optionsFile          = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\OPTIONS.ini
+2011-01-26 08:47:36,088 CRIT  [main] - Input value - disconnectWarning    = false
+2011-01-26 08:47:36,088 CRIT  [main] - Input value - nosplash             = true
+2011-01-26 08:47:36,088 CRIT  [main] - Input value - file                 = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-26 08:47:36,088 CRIT  [main] - Input value - direct               = true
+2011-01-26 08:47:36,088 CRIT  [main] - Input value - singleClick          = false
+2011-01-26 08:47:36,088 CRIT  [main] - Input value - doubleClick          = false
+2011-01-26 08:47:36,088 CRIT  [main] - Input value - nomenus              = false
+2011-01-26 08:47:36,088 CRIT  [main] - Input value - xmlRedirect          = false
+2011-01-26 08:47:36,088 CRIT  [main] - Configurations:
+2011-01-26 08:47:36,088 CRIT  [main] - 	disable_cacheds
+2011-01-26 08:47:36,088 CRIT  [main] - 	nohistory
+2011-01-26 08:47:36,088 CRIT  [main] - 	:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-26 08:47:36,088 CRIT  [main] - 	n576
+2011-01-26 08:47:36,088 CRIT  [main] - 	customds:com.apama.sl.data.scenario.ScenarioDataSource
+2011-01-26 08:47:36,088 CRIT  [main] - 	customds:com.sl.gmsjsqlds.GmsRtViewSqlDs
+2011-01-26 08:47:36,088 CRIT  [main] - 	max_displays:null
+2011-01-26 08:47:36,088 CRIT  [main] - Apama dashboard_viewer 4.3.1.1, started.
+2011-01-26 08:47:36,104 CRIT  [main] - Running on host 'nbcamspare2'.
+2011-01-26 08:47:42,479 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_0") Disconnected by the engine: Connection closed
+2011-01-26 08:47:42,479 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_3") Disconnected by the engine: Connection closed
+2011-01-26 08:47:42,479 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_2") Disconnected by the engine: Connection closed
+2011-01-26 08:48:50,898 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_7") Disconnected by the engine: Connection closed
+2011-01-26 08:48:50,898 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_5") Disconnected by the engine: Connection closed
+2011-01-26 08:48:50,976 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_6") Disconnected by the engine: Connection closed
+2011-01-26 08:48:50,976 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_4") Disconnected by the engine: Connection closed
+2011-01-26 08:55:05,930 INFO  [main] - Log4JLogger.initLoggingSystem() - Configured logging based on a log4j config file. Using those settings and will IGNORE all APAMA_LOG system properties.
+2011-01-26 08:55:05,930 INFO  [main] - 
+2011-01-26 08:55:05,930 INFO  [main] - ================================================================================
+2011-01-26 08:55:05,930 INFO  [main] - Java logging begins at: Jan 26, 2011 8:55:05 AM
+2011-01-26 08:55:05,930 INFO  [main] - Apama Platform Version: releases/4.3.1_HF@151012
+2011-01-26 08:55:05,930 INFO  [main] - ================================================================================
+2011-01-26 08:55:05,930 INFO  [main] - 
+2011-01-26 08:55:06,118 ERROR [main] - AbstractGuiMain.initializePreferences(): java.io.FileNotFoundException: C:\Documents and Settings\Administrator\apama-work\dashboards\preferences.xml (Access is denied)
+2011-01-26 08:55:06,212 CRIT  [main] - Input value - extensionFile        = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\EXTENSIONS.ini
+2011-01-26 08:55:06,212 CRIT  [main] - Input value - jaasFile             = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\JAAS.ini
+2011-01-26 08:55:06,212 CRIT  [main] - Input value - optionsFile          = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\OPTIONS.ini
+2011-01-26 08:55:06,212 CRIT  [main] - Input value - disconnectWarning    = false
+2011-01-26 08:55:06,212 CRIT  [main] - Input value - nosplash             = true
+2011-01-26 08:55:06,212 CRIT  [main] - Input value - file                 = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-26 08:55:06,212 CRIT  [main] - Input value - direct               = true
+2011-01-26 08:55:06,212 CRIT  [main] - Input value - singleClick          = false
+2011-01-26 08:55:06,212 CRIT  [main] - Input value - doubleClick          = false
+2011-01-26 08:55:06,212 CRIT  [main] - Input value - nomenus              = false
+2011-01-26 08:55:06,212 CRIT  [main] - Input value - xmlRedirect          = false
+2011-01-26 08:55:06,212 CRIT  [main] - Configurations:
+2011-01-26 08:55:06,212 CRIT  [main] - 	disable_cacheds
+2011-01-26 08:55:06,212 CRIT  [main] - 	nohistory
+2011-01-26 08:55:06,212 CRIT  [main] - 	:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-26 08:55:06,212 CRIT  [main] - 	n576
+2011-01-26 08:55:06,212 CRIT  [main] - 	customds:com.apama.sl.data.scenario.ScenarioDataSource
+2011-01-26 08:55:06,212 CRIT  [main] - 	customds:com.sl.gmsjsqlds.GmsRtViewSqlDs
+2011-01-26 08:55:06,212 CRIT  [main] - 	max_displays:null
+2011-01-26 08:55:06,212 CRIT  [main] - Apama dashboard_viewer 4.3.1.1, started.
+2011-01-26 08:55:06,227 CRIT  [main] - Running on host 'nbcamspare2'.
+2011-01-26 08:55:08,586 ERROR [main] - EventContext.updateEventDefs(): Error retrieving events from correlator.
+2011-01-26 09:25:48,485 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_3") Disconnected by the engine: Connection closed
+2011-01-26 09:25:48,485 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_0") Disconnected by the engine: Connection closed
+2011-01-26 09:25:48,485 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_2") Disconnected by the engine: Connection closed
+2011-01-27 05:24:40,617 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_7") Disconnected by the engine: Connection closed
+2011-01-27 05:24:40,617 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_6") Disconnected by the engine: Connection closed
+2011-01-27 05:24:40,617 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_4") Disconnected by the engine: Connection closed
+2011-01-27 05:25:56,177 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_8") Disconnected by the engine: Connection closed
+2011-01-27 05:25:56,192 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_10") Disconnected by the engine: Connection closed
+2011-01-27 05:25:56,192 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_11") Disconnected by the engine: Connection closed
+2011-01-27 05:39:36,572 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_14") Disconnected by the engine: Connection closed
+2011-01-27 05:39:36,572 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_13") Disconnected by the engine: Connection closed
+2011-01-27 05:39:36,588 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_12") Disconnected by the engine: Connection closed
+2011-01-27 05:39:36,588 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_15") Disconnected by the engine: Connection closed
+2011-01-27 05:48:10,040 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_18") Disconnected by the engine: Connection closed
+2011-01-27 05:48:10,040 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_16") Disconnected by the engine: Connection closed
+2011-01-27 05:48:10,040 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_19") Disconnected by the engine: Connection closed
+2011-01-27 05:50:27,177 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_22") Disconnected by the engine: Connection closed
+2011-01-27 05:50:27,177 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_20") Disconnected by the engine: Connection closed
+2011-01-27 05:50:27,208 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_21") Disconnected by the engine: Connection closed
+2011-01-27 05:50:27,208 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_23") Disconnected by the engine: Connection closed
+2011-01-27 05:50:53,644 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_24") Disconnected by the engine: Connection closed
+2011-01-27 05:50:53,644 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_25") Disconnected by the engine: Connection closed
+2011-01-27 05:50:53,691 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_26") Disconnected by the engine: Connection closed
+2011-01-27 05:50:53,691 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_27") Disconnected by the engine: Connection closed
+2011-01-27 05:51:28,628 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_29") Disconnected by the engine: Connection closed
+2011-01-27 05:51:28,659 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_28") Disconnected by the engine: Connection closed
+2011-01-27 05:51:28,690 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_31") Disconnected by the engine: Connection closed
+2011-01-27 05:51:28,690 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_30") Disconnected by the engine: Connection closed
+2011-01-27 06:13:29,054 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_32") Disconnected by the engine: Connection closed
+2011-01-27 06:13:29,054 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_35") Disconnected by the engine: Connection closed
+2011-01-27 06:13:29,054 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_34") Disconnected by the engine: Connection closed
+2011-01-27 06:32:35,268 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_37") Disconnected by the engine: Connection closed
+2011-01-27 06:32:35,268 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_39") Disconnected by the engine: Connection closed
+2011-01-27 06:32:35,268 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_38") Disconnected by the engine: Connection closed
+2011-01-27 06:32:35,268 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_36") Disconnected by the engine: Connection closed
+2011-01-27 06:40:29,424 INFO  [main] - Log4JLogger.initLoggingSystem() - Configured logging based on a log4j config file. Using those settings and will IGNORE all APAMA_LOG system properties.
+2011-01-27 06:40:29,424 INFO  [main] - 
+2011-01-27 06:40:29,424 INFO  [main] - ================================================================================
+2011-01-27 06:40:29,424 INFO  [main] - Java logging begins at: Jan 27, 2011 6:40:29 AM
+2011-01-27 06:40:29,424 INFO  [main] - Apama Platform Version: releases/4.3.1_HF@151012
+2011-01-27 06:40:29,424 INFO  [main] - ================================================================================
+2011-01-27 06:40:29,424 INFO  [main] - 
+2011-01-27 06:40:29,596 ERROR [main] - AbstractGuiMain.initializePreferences(): java.io.FileNotFoundException: C:\Documents and Settings\Administrator\apama-work\dashboards\preferences.xml (Access is denied)
+2011-01-27 06:40:29,690 CRIT  [main] - Input value - extensionFile        = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\EXTENSIONS.ini
+2011-01-27 06:40:29,690 CRIT  [main] - Input value - jaasFile             = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\JAAS.ini
+2011-01-27 06:40:29,690 CRIT  [main] - Input value - optionsFile          = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\OPTIONS.ini
+2011-01-27 06:40:29,690 CRIT  [main] - Input value - disconnectWarning    = false
+2011-01-27 06:40:29,690 CRIT  [main] - Input value - nosplash             = true
+2011-01-27 06:40:29,690 CRIT  [main] - Input value - file                 = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-27 06:40:29,690 CRIT  [main] - Input value - direct               = true
+2011-01-27 06:40:29,690 CRIT  [main] - Input value - singleClick          = false
+2011-01-27 06:40:29,690 CRIT  [main] - Input value - doubleClick          = false
+2011-01-27 06:40:29,690 CRIT  [main] - Input value - nomenus              = false
+2011-01-27 06:40:29,690 CRIT  [main] - Input value - xmlRedirect          = false
+2011-01-27 06:40:29,690 CRIT  [main] - Configurations:
+2011-01-27 06:40:29,690 CRIT  [main] - 	disable_cacheds
+2011-01-27 06:40:29,706 CRIT  [main] - 	nohistory
+2011-01-27 06:40:29,706 CRIT  [main] - 	:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-27 06:40:29,706 CRIT  [main] - 	n576
+2011-01-27 06:40:29,706 CRIT  [main] - 	customds:com.apama.sl.data.scenario.ScenarioDataSource
+2011-01-27 06:40:29,706 CRIT  [main] - 	customds:com.sl.gmsjsqlds.GmsRtViewSqlDs
+2011-01-27 06:40:29,706 CRIT  [main] - 	max_displays:null
+2011-01-27 06:40:29,706 CRIT  [main] - Apama dashboard_viewer 4.3.1.1, started.
+2011-01-27 06:40:29,706 CRIT  [main] - Running on host 'nbcamspare2'.
+2011-01-27 06:43:08,513 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_4") Disconnected by the engine: Connection closed
+2011-01-27 06:43:08,513 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_0") Disconnected by the engine: Connection closed
+2011-01-27 06:43:08,513 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_5") Disconnected by the engine: Connection closed
+2011-01-27 06:43:08,513 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_3") Disconnected by the engine: Connection closed
+2011-01-27 06:43:08,513 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_2") Disconnected by the engine: Connection closed
+2011-01-27 06:43:32,872 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_10") Disconnected by the engine: Connection closed
+2011-01-27 06:43:32,872 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_7") Disconnected by the engine: Connection closed
+2011-01-27 06:43:32,934 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_9") Disconnected by the engine: Connection closed
+2011-01-27 06:43:32,934 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_11") Disconnected by the engine: Connection closed
+2011-01-27 06:43:32,934 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_6") Disconnected by the engine: Connection closed
+2011-01-27 06:43:32,934 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_8") Disconnected by the engine: Connection closed
+2011-01-27 06:54:53,256 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_12") Disconnected by the engine: Connection closed
+2011-01-27 06:54:53,256 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_15") Disconnected by the engine: Connection closed
+2011-01-27 06:54:53,256 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_13") Disconnected by the engine: Connection closed
+2011-01-27 06:54:53,256 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_14") Disconnected by the engine: Connection closed
+2011-01-27 06:54:53,287 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_17") Disconnected by the engine: Connection closed
+2011-01-27 06:54:53,303 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_16") Disconnected by the engine: Connection closed
+2011-01-27 07:07:13,951 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_20") Disconnected by the engine: Connection closed
+2011-01-27 07:07:13,951 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_21") Disconnected by the engine: Connection closed
+2011-01-27 07:07:13,982 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_18") Disconnected by the engine: Connection closed
+2011-01-27 07:07:13,982 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_22") Disconnected by the engine: Connection closed
+2011-01-27 07:07:13,982 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_23") Disconnected by the engine: Connection closed
+2011-01-27 07:09:42,399 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_29") Disconnected by the engine: Connection closed
+2011-01-27 07:09:42,399 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_27") Disconnected by the engine: Connection closed
+2011-01-27 07:09:42,399 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_28") Disconnected by the engine: Connection closed
+2011-01-27 07:09:42,431 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_24") Disconnected by the engine: Connection closed
+2011-01-27 07:09:42,431 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_26") Disconnected by the engine: Connection closed
+2011-01-27 07:10:26,367 ERROR [Apama messaging library connection reaper thread] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_30") Disconnected by the engine: Unable to ping remote sender
+2011-01-27 07:10:26,382 ERROR [Apama messaging library connection reaper thread] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_32") Disconnected by the engine: Unable to ping remote sender
+2011-01-27 07:10:26,382 ERROR [Apama messaging library connection reaper thread] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_34") Disconnected by the engine: Unable to ping remote sender
+2011-01-27 07:10:26,382 ERROR [Apama messaging library connection reaper thread] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_35") Disconnected by the engine: Unable to ping remote sender
+2011-01-27 07:10:26,382 ERROR [Apama messaging library connection reaper thread] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_33") Disconnected by the engine: Unable to ping remote sender
+2011-01-27 07:13:02,706 INFO  [main] - Log4JLogger.initLoggingSystem() - Configured logging based on a log4j config file. Using those settings and will IGNORE all APAMA_LOG system properties.
+2011-01-27 07:13:02,706 INFO  [main] - 
+2011-01-27 07:13:02,706 INFO  [main] - ================================================================================
+2011-01-27 07:13:02,706 INFO  [main] - Java logging begins at: Jan 27, 2011 7:13:02 AM
+2011-01-27 07:13:02,706 INFO  [main] - Apama Platform Version: releases/4.3.1_HF@151012
+2011-01-27 07:13:02,706 INFO  [main] - ================================================================================
+2011-01-27 07:13:02,706 INFO  [main] - 
+2011-01-27 07:13:02,877 ERROR [main] - AbstractGuiMain.initializePreferences(): java.io.FileNotFoundException: C:\Documents and Settings\Administrator\apama-work\dashboards\preferences.xml (Access is denied)
+2011-01-27 07:13:02,971 CRIT  [main] - Input value - extensionFile        = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\EXTENSIONS.ini
+2011-01-27 07:13:02,971 CRIT  [main] - Input value - jaasFile             = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\JAAS.ini
+2011-01-27 07:13:02,971 CRIT  [main] - Input value - optionsFile          = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\OPTIONS.ini
+2011-01-27 07:13:02,971 CRIT  [main] - Input value - disconnectWarning    = false
+2011-01-27 07:13:02,971 CRIT  [main] - Input value - nosplash             = true
+2011-01-27 07:13:02,971 CRIT  [main] - Input value - file                 = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-27 07:13:02,971 CRIT  [main] - Input value - direct               = true
+2011-01-27 07:13:02,971 CRIT  [main] - Input value - singleClick          = false
+2011-01-27 07:13:02,971 CRIT  [main] - Input value - doubleClick          = false
+2011-01-27 07:13:02,971 CRIT  [main] - Input value - nomenus              = false
+2011-01-27 07:13:02,971 CRIT  [main] - Input value - xmlRedirect          = false
+2011-01-27 07:13:02,971 CRIT  [main] - Configurations:
+2011-01-27 07:13:02,971 CRIT  [main] - 	disable_cacheds
+2011-01-27 07:13:02,971 CRIT  [main] - 	nohistory
+2011-01-27 07:13:02,971 CRIT  [main] - 	:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-27 07:13:02,971 CRIT  [main] - 	n576
+2011-01-27 07:13:02,971 CRIT  [main] - 	customds:com.apama.sl.data.scenario.ScenarioDataSource
+2011-01-27 07:13:02,971 CRIT  [main] - 	customds:com.sl.gmsjsqlds.GmsRtViewSqlDs
+2011-01-27 07:13:02,971 CRIT  [main] - 	max_displays:null
+2011-01-27 07:13:02,971 CRIT  [main] - Apama dashboard_viewer 4.3.1.1, started.
+2011-01-27 07:13:02,987 CRIT  [main] - Running on host 'nbcamspare2'.
+2011-01-27 07:14:08,188 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_3") Disconnected by the engine: Connection closed
+2011-01-27 07:14:08,188 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_4") Disconnected by the engine: Connection closed
+2011-01-27 07:14:08,188 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_2") Disconnected by the engine: Connection closed
+2011-01-27 07:14:08,188 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_5") Disconnected by the engine: Connection closed
+2011-01-27 07:14:08,188 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_0") Disconnected by the engine: Connection closed
+2011-01-27 08:36:36,358 ERROR [Apama messaging connection pool-2-thread-6] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_8") Disconnected by the engine: Connection closed
+2011-01-27 08:36:36,358 ERROR [Apama messaging connection pool-2-thread-6] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_6") Disconnected by the engine: Connection closed
+2011-01-27 08:36:36,389 ERROR [Apama messaging connection pool-2-thread-6] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_11") Disconnected by the engine: Connection closed
+2011-01-27 08:36:36,389 ERROR [Apama messaging connection pool-2-thread-6] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_9") Disconnected by the engine: Connection closed
+2011-01-27 08:36:36,389 ERROR [Apama messaging connection pool-2-thread-6] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_10") Disconnected by the engine: Connection closed
+2011-01-27 08:40:33,428 INFO  [main] - Log4JLogger.initLoggingSystem() - Configured logging based on a log4j config file. Using those settings and will IGNORE all APAMA_LOG system properties.
+2011-01-27 08:40:33,428 INFO  [main] - 
+2011-01-27 08:40:33,428 INFO  [main] - ================================================================================
+2011-01-27 08:40:33,428 INFO  [main] - Java logging begins at: Jan 27, 2011 8:40:33 AM
+2011-01-27 08:40:33,428 INFO  [main] - Apama Platform Version: releases/4.3.1_HF@151012
+2011-01-27 08:40:33,428 INFO  [main] - ================================================================================
+2011-01-27 08:40:33,428 INFO  [main] - 
+2011-01-27 08:40:33,600 ERROR [main] - AbstractGuiMain.initializePreferences(): java.io.FileNotFoundException: C:\Documents and Settings\Administrator\apama-work\dashboards\preferences.xml (Access is denied)
+2011-01-27 08:40:33,678 CRIT  [main] - Input value - extensionFile        = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\EXTENSIONS.ini
+2011-01-27 08:40:33,678 CRIT  [main] - Input value - jaasFile             = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\JAAS.ini
+2011-01-27 08:40:33,678 CRIT  [main] - Input value - optionsFile          = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\OPTIONS.ini
+2011-01-27 08:40:33,694 CRIT  [main] - Input value - disconnectWarning    = false
+2011-01-27 08:40:33,694 CRIT  [main] - Input value - nosplash             = true
+2011-01-27 08:40:33,694 CRIT  [main] - Input value - file                 = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-27 08:40:33,694 CRIT  [main] - Input value - direct               = true
+2011-01-27 08:40:33,694 CRIT  [main] - Input value - singleClick          = false
+2011-01-27 08:40:33,694 CRIT  [main] - Input value - doubleClick          = false
+2011-01-27 08:40:33,694 CRIT  [main] - Input value - nomenus              = false
+2011-01-27 08:40:33,694 CRIT  [main] - Input value - xmlRedirect          = false
+2011-01-27 08:40:33,694 CRIT  [main] - Configurations:
+2011-01-27 08:40:33,694 CRIT  [main] - 	disable_cacheds
+2011-01-27 08:40:33,694 CRIT  [main] - 	nohistory
+2011-01-27 08:40:33,694 CRIT  [main] - 	:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-27 08:40:33,694 CRIT  [main] - 	n576
+2011-01-27 08:40:33,694 CRIT  [main] - 	customds:com.apama.sl.data.scenario.ScenarioDataSource
+2011-01-27 08:40:33,694 CRIT  [main] - 	customds:com.sl.gmsjsqlds.GmsRtViewSqlDs
+2011-01-27 08:40:33,694 CRIT  [main] - 	max_displays:null
+2011-01-27 08:40:33,694 CRIT  [main] - Apama dashboard_viewer 4.3.1.1, started.
+2011-01-27 08:40:33,694 CRIT  [main] - Running on host 'nbcamspare2'.
+2011-01-27 08:40:35,787 ERROR [main] - EventContext.updateEventDefs(): Error retrieving events from correlator.
+2011-01-27 08:41:57,285 INFO  [main] - Log4JLogger.initLoggingSystem() - Configured logging based on a log4j config file. Using those settings and will IGNORE all APAMA_LOG system properties.
+2011-01-27 08:41:57,285 INFO  [main] - 
+2011-01-27 08:41:57,285 INFO  [main] - ================================================================================
+2011-01-27 08:41:57,285 INFO  [main] - Java logging begins at: Jan 27, 2011 8:41:57 AM
+2011-01-27 08:41:57,285 INFO  [main] - Apama Platform Version: releases/4.3.1_HF@151012
+2011-01-27 08:41:57,285 INFO  [main] - ================================================================================
+2011-01-27 08:41:57,285 INFO  [main] - 
+2011-01-27 08:41:57,472 ERROR [main] - AbstractGuiMain.initializePreferences(): java.io.FileNotFoundException: C:\Documents and Settings\Administrator\apama-work\dashboards\preferences.xml (Access is denied)
+2011-01-27 08:41:57,566 CRIT  [main] - Input value - extensionFile        = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\EXTENSIONS.ini
+2011-01-27 08:41:57,566 CRIT  [main] - Input value - jaasFile             = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\JAAS.ini
+2011-01-27 08:41:57,566 CRIT  [main] - Input value - optionsFile          = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\OPTIONS.ini
+2011-01-27 08:41:57,566 CRIT  [main] - Input value - disconnectWarning    = false
+2011-01-27 08:41:57,566 CRIT  [main] - Input value - nosplash             = true
+2011-01-27 08:41:57,566 CRIT  [main] - Input value - file                 = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-27 08:41:57,566 CRIT  [main] - Input value - direct               = true
+2011-01-27 08:41:57,566 CRIT  [main] - Input value - singleClick          = false
+2011-01-27 08:41:57,566 CRIT  [main] - Input value - doubleClick          = false
+2011-01-27 08:41:57,566 CRIT  [main] - Input value - nomenus              = false
+2011-01-27 08:41:57,566 CRIT  [main] - Input value - xmlRedirect          = false
+2011-01-27 08:41:57,566 CRIT  [main] - Configurations:
+2011-01-27 08:41:57,566 CRIT  [main] - 	disable_cacheds
+2011-01-27 08:41:57,566 CRIT  [main] - 	nohistory
+2011-01-27 08:41:57,566 CRIT  [main] - 	:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-27 08:41:57,566 CRIT  [main] - 	n576
+2011-01-27 08:41:57,566 CRIT  [main] - 	customds:com.apama.sl.data.scenario.ScenarioDataSource
+2011-01-27 08:41:57,566 CRIT  [main] - 	customds:com.sl.gmsjsqlds.GmsRtViewSqlDs
+2011-01-27 08:41:57,566 CRIT  [main] - 	max_displays:null
+2011-01-27 08:41:57,566 CRIT  [main] - Apama dashboard_viewer 4.3.1.1, started.
+2011-01-27 08:41:57,566 CRIT  [main] - Running on host 'nbcamspare2'.
+2011-01-27 08:52:30,374 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_5") Disconnected by the engine: Connection closed
+2011-01-27 08:52:30,374 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_4") Disconnected by the engine: Connection closed
+2011-01-27 08:52:30,374 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_3") Disconnected by the engine: Connection closed
+2011-01-27 08:52:30,374 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_0") Disconnected by the engine: Connection closed
+2011-01-27 08:52:30,374 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_2") Disconnected by the engine: Connection closed
+2011-01-27 10:52:08,550 INFO  [main] - Log4JLogger.initLoggingSystem() - Configured logging based on a log4j config file. Using those settings and will IGNORE all APAMA_LOG system properties.
+2011-01-27 10:52:08,550 INFO  [main] - 
+2011-01-27 10:52:08,550 INFO  [main] - ================================================================================
+2011-01-27 10:52:08,550 INFO  [main] - Java logging begins at: Jan 27, 2011 10:52:08 AM
+2011-01-27 10:52:08,550 INFO  [main] - Apama Platform Version: releases/4.3.1_HF@151012
+2011-01-27 10:52:08,550 INFO  [main] - ================================================================================
+2011-01-27 10:52:08,550 INFO  [main] - 
+2011-01-27 10:52:08,722 ERROR [main] - AbstractGuiMain.initializePreferences(): java.io.FileNotFoundException: C:\Documents and Settings\Administrator\apama-work\dashboards\preferences.xml (Access is denied)
+2011-01-27 10:52:08,816 CRIT  [main] - Input value - extensionFile        = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\EXTENSIONS.ini
+2011-01-27 10:52:08,816 CRIT  [main] - Input value - jaasFile             = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\JAAS.ini
+2011-01-27 10:52:08,816 CRIT  [main] - Input value - optionsFile          = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\OPTIONS.ini
+2011-01-27 10:52:08,816 CRIT  [main] - Input value - disconnectWarning    = false
+2011-01-27 10:52:08,816 CRIT  [main] - Input value - nosplash             = true
+2011-01-27 10:52:08,816 CRIT  [main] - Input value - file                 = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-27 10:52:08,816 CRIT  [main] - Input value - direct               = true
+2011-01-27 10:52:08,816 CRIT  [main] - Input value - singleClick          = false
+2011-01-27 10:52:08,816 CRIT  [main] - Input value - doubleClick          = false
+2011-01-27 10:52:08,816 CRIT  [main] - Input value - nomenus              = false
+2011-01-27 10:52:08,816 CRIT  [main] - Input value - xmlRedirect          = false
+2011-01-27 10:52:08,816 CRIT  [main] - Configurations:
+2011-01-27 10:52:08,816 CRIT  [main] - 	disable_cacheds
+2011-01-27 10:52:08,816 CRIT  [main] - 	nohistory
+2011-01-27 10:52:08,816 CRIT  [main] - 	:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-27 10:52:08,816 CRIT  [main] - 	n576
+2011-01-27 10:52:08,816 CRIT  [main] - 	customds:com.apama.sl.data.scenario.ScenarioDataSource
+2011-01-27 10:52:08,816 CRIT  [main] - 	customds:com.sl.gmsjsqlds.GmsRtViewSqlDs
+2011-01-27 10:52:08,816 CRIT  [main] - 	max_displays:null
+2011-01-27 10:52:08,816 CRIT  [main] - Apama dashboard_viewer 4.3.1.1, started.
+2011-01-27 10:52:08,832 CRIT  [main] - Running on host 'nbcamspare2'.
+2011-01-27 10:52:11,035 ERROR [main] - EventContext.updateEventDefs(): Error retrieving events from correlator.
+2011-01-27 10:52:29,253 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_0") Disconnected by the engine: Connection closed
+2011-01-27 10:52:29,253 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_5") Disconnected by the engine: Connection closed
+2011-01-27 10:52:29,253 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_3") Disconnected by the engine: Connection closed
+2011-01-27 10:52:29,253 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_4") Disconnected by the engine: Connection closed
+2011-01-27 10:52:29,253 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_2") Disconnected by the engine: Connection closed
+2011-01-27 10:58:45,335 ERROR [Apama messaging connection pool-2-thread-6] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_8") Disconnected by the engine: Connection closed
+2011-01-27 10:58:45,335 ERROR [Apama messaging connection pool-2-thread-6] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_11") Disconnected by the engine: Connection closed
+2011-01-27 10:58:45,335 ERROR [Apama messaging connection pool-2-thread-6] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_7") Disconnected by the engine: Connection closed
+2011-01-27 10:58:45,335 ERROR [Apama messaging connection pool-2-thread-6] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_10") Disconnected by the engine: Connection closed
+2011-01-27 10:58:45,335 ERROR [Apama messaging connection pool-2-thread-6] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_6") Disconnected by the engine: Connection closed
+2011-01-27 10:58:45,335 ERROR [Apama messaging connection pool-2-thread-6] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_9") Disconnected by the engine: Connection closed
+2011-01-27 11:00:00,285 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_16") Disconnected by the engine: Connection closed
+2011-01-27 11:00:00,285 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_17") Disconnected by the engine: Connection closed
+2011-01-27 11:00:00,285 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_12") Disconnected by the engine: Connection closed
+2011-01-27 11:00:00,285 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_15") Disconnected by the engine: Connection closed
+2011-01-27 11:00:00,285 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_14") Disconnected by the engine: Connection closed
+2011-01-27 11:00:00,285 ERROR [Apama messaging connection pool-2-thread-11] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_13") Disconnected by the engine: Connection closed
+2011-01-27 11:01:07,893 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_21") Disconnected by the engine: Connection closed
+2011-01-27 11:01:07,893 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_22") Disconnected by the engine: Connection closed
+2011-01-27 11:01:07,893 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_18") Disconnected by the engine: Connection closed
+2011-01-27 11:01:07,893 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_23") Disconnected by the engine: Connection closed
+2011-01-27 11:01:07,893 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_20") Disconnected by the engine: Connection closed
+2011-01-27 11:01:07,893 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_19") Disconnected by the engine: Connection closed
+2011-01-27 11:02:25,968 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_24") Disconnected by the engine: Connection closed
+2011-01-27 11:02:25,968 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_27") Disconnected by the engine: Connection closed
+2011-01-27 11:02:25,968 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_26") Disconnected by the engine: Connection closed
+2011-01-27 11:02:25,968 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_25") Disconnected by the engine: Connection closed
+2011-01-27 11:02:25,968 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_29") Disconnected by the engine: Connection closed
+2011-01-27 11:02:25,968 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_28") Disconnected by the engine: Connection closed
+2011-01-27 11:03:30,107 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_30") Disconnected by the engine: Connection closed
+2011-01-27 11:03:30,107 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_31") Disconnected by the engine: Connection closed
+2011-01-27 11:03:30,107 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_33") Disconnected by the engine: Connection closed
+2011-01-27 11:03:30,107 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_32") Disconnected by the engine: Connection closed
+2011-01-27 11:03:30,107 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_34") Disconnected by the engine: Connection closed
+2011-01-27 11:03:30,107 ERROR [Apama messaging connection pool-2-thread-15] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_35") Disconnected by the engine: Connection closed
+2011-01-27 11:07:30,630 ERROR [Apama messaging connection pool-2-thread-20] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_40") Disconnected by the engine: Connection closed
+2011-01-27 11:07:30,630 ERROR [Apama messaging connection pool-2-thread-20] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_41") Disconnected by the engine: Connection closed
+2011-01-27 11:07:30,630 ERROR [Apama messaging connection pool-2-thread-20] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_36") Disconnected by the engine: Connection closed
+2011-01-27 11:07:30,630 ERROR [Apama messaging connection pool-2-thread-20] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_37") Disconnected by the engine: Connection closed
+2011-01-27 11:07:30,630 ERROR [Apama messaging connection pool-2-thread-20] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_39") Disconnected by the engine: Connection closed
+2011-01-27 11:07:30,630 ERROR [Apama messaging connection pool-2-thread-20] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_38") Disconnected by the engine: Connection closed
+2011-01-27 11:09:23,299 ERROR [Apama messaging connection pool-2-thread-20] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_45") Disconnected by the engine: Connection closed
+2011-01-27 11:09:23,299 ERROR [Apama messaging connection pool-2-thread-20] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_44") Disconnected by the engine: Connection closed
+2011-01-27 11:09:23,299 ERROR [Apama messaging connection pool-2-thread-20] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_46") Disconnected by the engine: Connection closed
+2011-01-27 11:09:23,299 ERROR [Apama messaging connection pool-2-thread-20] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_43") Disconnected by the engine: Connection closed
+2011-01-27 11:09:23,299 ERROR [Apama messaging connection pool-2-thread-20] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_42") Disconnected by the engine: Connection closed
+2011-01-27 11:09:23,299 ERROR [Apama messaging connection pool-2-thread-20] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_47") Disconnected by the engine: Connection closed
+2011-01-27 11:10:59,999 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_52") Disconnected by the engine: Connection closed
+2011-01-27 11:10:59,999 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_53") Disconnected by the engine: Connection closed
+2011-01-27 11:10:59,999 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_50") Disconnected by the engine: Connection closed
+2011-01-27 11:10:59,999 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_48") Disconnected by the engine: Connection closed
+2011-01-27 11:10:59,999 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_51") Disconnected by the engine: Connection closed
+2011-01-27 11:11:24,873 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_54") Disconnected by the engine: Connection closed
+2011-01-27 11:11:24,873 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_57") Disconnected by the engine: Connection closed
+2011-01-27 11:11:24,873 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_56") Disconnected by the engine: Connection closed
+2011-01-27 11:11:24,873 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_55") Disconnected by the engine: Connection closed
+2011-01-27 11:11:24,873 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_58") Disconnected by the engine: Connection closed
+2011-01-27 11:11:24,888 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_59") Disconnected by the engine: Connection closed
+2011-01-27 11:12:13,434 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_62") Disconnected by the engine: Connection closed
+2011-01-27 11:12:13,434 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_63") Disconnected by the engine: Connection closed
+2011-01-27 11:12:13,434 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_60") Disconnected by the engine: Connection closed
+2011-01-27 11:12:13,434 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_61") Disconnected by the engine: Connection closed
+2011-01-27 11:12:13,434 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_64") Disconnected by the engine: Connection closed
+2011-01-27 11:12:13,434 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_65") Disconnected by the engine: Connection closed
+2011-01-27 11:14:00,415 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_66") Disconnected by the engine: Connection closed
+2011-01-27 11:14:00,415 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_71") Disconnected by the engine: Connection closed
+2011-01-27 11:14:00,415 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_70") Disconnected by the engine: Connection closed
+2011-01-27 11:14:00,415 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_67") Disconnected by the engine: Connection closed
+2011-01-27 11:14:00,415 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_68") Disconnected by the engine: Connection closed
+2011-01-27 11:14:00,415 ERROR [Apama messaging connection pool-2-thread-27] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_69") Disconnected by the engine: Connection closed
+2011-01-27 18:09:37,661 INFO  [main] - Log4JLogger.initLoggingSystem() - Configured logging based on a log4j config file. Using those settings and will IGNORE all APAMA_LOG system properties.
+2011-01-27 18:09:37,661 INFO  [main] - 
+2011-01-27 18:09:37,661 INFO  [main] - ================================================================================
+2011-01-27 18:09:37,661 INFO  [main] - Java logging begins at: Jan 27, 2011 6:09:37 PM
+2011-01-27 18:09:37,661 INFO  [main] - Apama Platform Version: releases/4.3.1_HF@151012
+2011-01-27 18:09:37,661 INFO  [main] - ================================================================================
+2011-01-27 18:09:37,661 INFO  [main] - 
+2011-01-27 18:09:38,300 ERROR [main] - AbstractGuiMain.initializePreferences(): java.io.FileNotFoundException: C:\Documents and Settings\Administrator\apama-work\dashboards\preferences.xml (Access is denied)
+2011-01-27 18:09:38,425 CRIT  [main] - Input value - extensionFile        = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\EXTENSIONS.ini
+2011-01-27 18:09:38,425 CRIT  [main] - Input value - jaasFile             = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\JAAS.ini
+2011-01-27 18:09:38,425 CRIT  [main] - Input value - optionsFile          = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\OPTIONS.ini
+2011-01-27 18:09:38,425 CRIT  [main] - Input value - disconnectWarning    = false
+2011-01-27 18:09:38,441 CRIT  [main] - Input value - nosplash             = true
+2011-01-27 18:09:38,441 CRIT  [main] - Input value - file                 = C:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-27 18:09:38,441 CRIT  [main] - Input value - direct               = true
+2011-01-27 18:09:38,441 CRIT  [main] - Input value - singleClick          = false
+2011-01-27 18:09:38,441 CRIT  [main] - Input value - doubleClick          = false
+2011-01-27 18:09:38,441 CRIT  [main] - Input value - nomenus              = false
+2011-01-27 18:09:38,441 CRIT  [main] - Input value - xmlRedirect          = false
+2011-01-27 18:09:38,441 CRIT  [main] - Configurations:
+2011-01-27 18:09:38,441 CRIT  [main] - 	disable_cacheds
+2011-01-27 18:09:38,441 CRIT  [main] - 	nohistory
+2011-01-27 18:09:38,441 CRIT  [main] - 	:\Documents and Settings\nadams\apama-work\studio_workspace\Trial\dashboards\Life.rtv
+2011-01-27 18:09:38,441 CRIT  [main] - 	n576
+2011-01-27 18:09:38,441 CRIT  [main] - 	customds:com.apama.sl.data.scenario.ScenarioDataSource
+2011-01-27 18:09:38,441 CRIT  [main] - 	customds:com.sl.gmsjsqlds.GmsRtViewSqlDs
+2011-01-27 18:09:38,441 CRIT  [main] - 	max_displays:null
+2011-01-27 18:09:38,441 CRIT  [main] - Apama dashboard_viewer 4.3.1.1, started.
+2011-01-27 18:09:38,441 CRIT  [main] - Running on host 'nbcamspare2'.
+2011-01-27 18:39:47,376 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_5") Disconnected by the engine: Connection closed
+2011-01-27 18:39:47,376 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_3") Disconnected by the engine: Connection closed
+2011-01-27 18:39:47,376 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_2") Disconnected by the engine: Connection closed
+2011-01-27 18:39:47,376 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_4") Disconnected by the engine: Connection closed
+2011-01-27 18:39:47,376 ERROR [Apama messaging connection pool-2-thread-1] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_0") Disconnected by the engine: Connection closed
+2011-01-28 10:09:48,428 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_10") Disconnected by the engine: Connection closed
+2011-01-28 10:09:48,428 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_9") Disconnected by the engine: Connection closed
+2011-01-28 10:09:48,459 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_6") Disconnected by the engine: Connection closed
+2011-01-28 10:09:48,459 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_11") Disconnected by the engine: Connection closed
+2011-01-28 10:09:48,459 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_8") Disconnected by the engine: Connection closed
+2011-01-28 10:34:06,456 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_16") Disconnected by the engine: Connection closed
+2011-01-28 10:34:06,456 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_15") Disconnected by the engine: Connection closed
+2011-01-28 10:34:06,456 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_13") Disconnected by the engine: Connection closed
+2011-01-28 10:34:06,456 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_17") Disconnected by the engine: Connection closed
+2011-01-28 10:34:06,456 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_14") Disconnected by the engine: Connection closed
+2011-01-28 10:34:06,456 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_12") Disconnected by the engine: Connection closed
+2011-01-28 10:36:30,656 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_22") Disconnected by the engine: Connection closed
+2011-01-28 10:36:30,656 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_23") Disconnected by the engine: Connection closed
+2011-01-28 10:36:30,656 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_21") Disconnected by the engine: Connection closed
+2011-01-28 10:36:30,656 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_19") Disconnected by the engine: Connection closed
+2011-01-28 10:36:30,656 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_20") Disconnected by the engine: Connection closed
+2011-01-28 10:36:30,656 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_18") Disconnected by the engine: Connection closed
+2011-01-28 10:43:12,567 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_28") Disconnected by the engine: Connection closed
+2011-01-28 10:43:12,567 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_25") Disconnected by the engine: Connection closed
+2011-01-28 10:43:12,567 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_29") Disconnected by the engine: Connection closed
+2011-01-28 10:43:12,567 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_27") Disconnected by the engine: Connection closed
+2011-01-28 10:43:12,567 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_24") Disconnected by the engine: Connection closed
+2011-01-28 10:43:12,567 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_26") Disconnected by the engine: Connection closed
+2011-01-28 10:44:17,253 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_34") Disconnected by the engine: Connection closed
+2011-01-28 10:44:17,253 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_30") Disconnected by the engine: Connection closed
+2011-01-28 10:44:17,253 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_32") Disconnected by the engine: Connection closed
+2011-01-28 10:44:17,253 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_33") Disconnected by the engine: Connection closed
+2011-01-28 10:44:17,253 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_31") Disconnected by the engine: Connection closed
+2011-01-28 10:44:17,284 ERROR [Apama messaging connection pool-2-thread-13] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_35") Disconnected by the engine: Connection closed
+2011-01-28 10:54:10,738 ERROR [Apama messaging library connection reaper thread] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_41") Disconnected by the engine: Unable to ping remote sender
+2011-01-28 10:54:10,738 ERROR [Apama messaging library connection reaper thread] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_39") Disconnected by the engine: Unable to ping remote sender
+2011-01-28 10:54:10,738 ERROR [Apama messaging library connection reaper thread] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_38") Disconnected by the engine: Unable to ping remote sender
+2011-01-28 10:54:10,738 ERROR [Apama messaging library connection reaper thread] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_40") Disconnected by the engine: Unable to ping remote sender
+2011-01-28 10:54:10,769 ERROR [Apama messaging library connection reaper thread] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_37") Disconnected by the engine: Unable to ping remote sender
+2011-01-28 10:54:10,769 ERROR [Apama messaging library connection reaper thread] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_36") Disconnected by the engine: Unable to ping remote sender
+2011-01-28 11:01:43,070 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_45") Disconnected by the engine: Connection closed
+2011-01-28 11:01:43,070 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_42") Disconnected by the engine: Connection closed
+2011-01-28 11:01:43,070 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_44") Disconnected by the engine: Connection closed
+2011-01-28 11:01:43,070 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_43") Disconnected by the engine: Connection closed
+2011-01-28 11:01:43,070 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_46") Disconnected by the engine: Connection closed
+2011-01-28 11:01:43,070 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_47") Disconnected by the engine: Connection closed
+2011-01-28 11:02:39,506 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_53") Disconnected by the engine: Connection closed
+2011-01-28 11:02:39,506 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_48") Disconnected by the engine: Connection closed
+2011-01-28 11:02:39,506 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_51") Disconnected by the engine: Connection closed
+2011-01-28 11:02:39,506 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_50") Disconnected by the engine: Connection closed
+2011-01-28 11:02:39,506 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_52") Disconnected by the engine: Connection closed
+2011-01-28 11:02:39,506 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_49") Disconnected by the engine: Connection closed
+2011-01-28 11:07:17,952 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_54") Disconnected by the engine: Connection closed
+2011-01-28 11:07:17,952 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_57") Disconnected by the engine: Connection closed
+2011-01-28 11:07:17,952 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_58") Disconnected by the engine: Connection closed
+2011-01-28 11:07:17,952 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_56") Disconnected by the engine: Connection closed
+2011-01-28 11:07:17,952 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_59") Disconnected by the engine: Connection closed
+2011-01-28 11:10:26,291 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_65") Disconnected by the engine: Connection closed
+2011-01-28 11:10:26,291 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_64") Disconnected by the engine: Connection closed
+2011-01-28 11:10:26,291 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_61") Disconnected by the engine: Connection closed
+2011-01-28 11:10:26,291 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_62") Disconnected by the engine: Connection closed
+2011-01-28 11:10:26,291 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_60") Disconnected by the engine: Connection closed
+2011-01-28 11:10:26,291 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_63") Disconnected by the engine: Connection closed
+2011-01-28 11:11:39,883 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_69") Disconnected by the engine: Connection closed
+2011-01-28 11:11:39,883 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_71") Disconnected by the engine: Connection closed
+2011-01-28 11:11:39,883 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_68") Disconnected by the engine: Connection closed
+2011-01-28 11:11:39,883 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_70") Disconnected by the engine: Connection closed
+2011-01-28 11:11:39,883 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_66") Disconnected by the engine: Connection closed
+2011-01-28 11:16:45,594 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_75") Disconnected by the engine: Connection closed
+2011-01-28 11:16:45,594 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_74") Disconnected by the engine: Connection closed
+2011-01-28 11:16:45,594 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_76") Disconnected by the engine: Connection closed
+2011-01-28 11:16:45,594 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_73") Disconnected by the engine: Connection closed
+2011-01-28 11:16:45,594 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_77") Disconnected by the engine: Connection closed
+2011-01-28 11:16:45,594 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_72") Disconnected by the engine: Connection closed
+2011-01-28 11:17:05,953 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_83") Disconnected by the engine: Connection closed
+2011-01-28 11:17:05,953 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_82") Disconnected by the engine: Connection closed
+2011-01-28 11:17:05,953 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_80") Disconnected by the engine: Connection closed
+2011-01-28 11:17:05,953 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_81") Disconnected by the engine: Connection closed
+2011-01-28 11:17:05,953 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_78") Disconnected by the engine: Connection closed
+2011-01-28 11:25:01,628 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_89") Disconnected by the engine: Connection closed
+2011-01-28 11:25:01,628 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_87") Disconnected by the engine: Connection closed
+2011-01-28 11:25:01,628 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_84") Disconnected by the engine: Connection closed
+2011-01-28 11:25:01,628 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_88") Disconnected by the engine: Connection closed
+2011-01-28 11:25:01,628 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_86") Disconnected by the engine: Connection closed
+2011-01-28 11:33:06,881 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_92") Disconnected by the engine: Connection closed
+2011-01-28 11:33:06,881 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_91") Disconnected by the engine: Connection closed
+2011-01-28 11:33:06,881 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_94") Disconnected by the engine: Connection closed
+2011-01-28 11:33:06,881 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_90") Disconnected by the engine: Connection closed
+2011-01-28 11:33:06,881 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_93") Disconnected by the engine: Connection closed
+2011-01-28 11:33:06,881 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_95") Disconnected by the engine: Connection closed
+2011-01-28 11:34:33,723 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_96") Disconnected by the engine: Connection closed
+2011-01-28 11:34:33,723 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_99") Disconnected by the engine: Connection closed
+2011-01-28 11:34:33,723 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_100") Disconnected by the engine: Connection closed
+2011-01-28 11:34:33,723 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_98") Disconnected by the engine: Connection closed
+2011-01-28 11:34:33,723 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_101") Disconnected by the engine: Connection closed
+2011-01-28 11:34:33,723 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_97") Disconnected by the engine: Connection closed
+2011-01-28 11:36:21,236 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_105") Disconnected by the engine: Connection closed
+2011-01-28 11:36:21,236 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_104") Disconnected by the engine: Connection closed
+2011-01-28 11:36:21,236 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_103") Disconnected by the engine: Connection closed
+2011-01-28 11:36:21,236 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_106") Disconnected by the engine: Connection closed
+2011-01-28 11:36:21,236 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_102") Disconnected by the engine: Connection closed
+2011-01-28 11:36:21,236 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_107") Disconnected by the engine: Connection closed
+2011-01-28 11:38:16,686 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_113") Disconnected by the engine: Connection closed
+2011-01-28 11:38:16,686 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_112") Disconnected by the engine: Connection closed
+2011-01-28 11:38:16,733 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_108") Disconnected by the engine: Connection closed
+2011-01-28 11:38:16,733 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_110") Disconnected by the engine: Connection closed
+2011-01-28 11:38:16,733 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_111") Disconnected by the engine: Connection closed
+2011-01-28 11:38:51,716 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_115") Disconnected by the engine: Connection closed
+2011-01-28 11:38:51,716 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_117") Disconnected by the engine: Connection closed
+2011-01-28 11:38:51,748 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_116") Disconnected by the engine: Connection closed
+2011-01-28 11:38:51,748 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_114") Disconnected by the engine: Connection closed
+2011-01-28 11:38:51,748 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_118") Disconnected by the engine: Connection closed
+2011-01-28 11:38:51,748 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_119") Disconnected by the engine: Connection closed
+2011-01-28 11:40:11,027 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_124") Disconnected by the engine: Connection closed
+2011-01-28 11:40:11,027 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_121") Disconnected by the engine: Connection closed
+2011-01-28 11:40:11,058 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_123") Disconnected by the engine: Connection closed
+2011-01-28 11:40:11,058 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_125") Disconnected by the engine: Connection closed
+2011-01-28 11:40:11,058 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_122") Disconnected by the engine: Connection closed
+2011-01-28 11:40:11,058 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_120") Disconnected by the engine: Connection closed
+2011-01-28 11:40:24,605 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_127") Disconnected by the engine: Connection closed
+2011-01-28 11:40:24,605 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_128") Disconnected by the engine: Connection closed
+2011-01-28 11:40:24,605 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_130") Disconnected by the engine: Connection closed
+2011-01-28 11:40:24,605 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_129") Disconnected by the engine: Connection closed
+2011-01-28 11:40:24,605 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_126") Disconnected by the engine: Connection closed
+2011-01-28 11:40:24,605 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_131") Disconnected by the engine: Connection closed
+2011-01-28 11:56:35,470 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_133") Disconnected by the engine: Connection closed
+2011-01-28 11:56:35,470 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_134") Disconnected by the engine: Connection closed
+2011-01-28 11:56:35,470 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_137") Disconnected by the engine: Connection closed
+2011-01-28 11:56:35,470 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_132") Disconnected by the engine: Connection closed
+2011-01-28 11:56:35,470 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_135") Disconnected by the engine: Connection closed
+2011-01-28 11:56:35,470 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_136") Disconnected by the engine: Connection closed
+2011-01-28 11:57:09,032 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_138") Disconnected by the engine: Connection closed
+2011-01-28 11:57:09,032 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_142") Disconnected by the engine: Connection closed
+2011-01-28 11:57:09,032 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_139") Disconnected by the engine: Connection closed
+2011-01-28 11:57:09,032 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_141") Disconnected by the engine: Connection closed
+2011-01-28 11:57:09,032 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_140") Disconnected by the engine: Connection closed
+2011-01-28 11:57:09,032 ERROR [Apama messaging connection pool-2-thread-30] - EngineClientBean$Consumer$ConsumerEventConsumer.disconnect() - (uniqueName: "EventServiceChannel_143") Disconnected by the engine: Connection closed

@@ -1,0 +1,354 @@
+2011-02-02 15:47:49.194 INFO  [5536] - com.apama.scenario.ScenarioService [0] ScenarioService interface loaded. MetaData: {"interface.fileName":"ScenarioService.mon","interface.fullVersion":"releases/4.3.1_HF@151012","interface.language":"MonitorScript","interface.name":"ScenarioService","interface.package":"com.apama.scenario","interface.vendor":"Apama","interface.version":"4.3.1.1"}
+2011-02-02 15:47:49.194 INFO  [5536] - com.apama.dataview.DataViewService_Interface [2] DataViewService interface loaded. MetaData: {"interface.fileName":"DataViewService_Interface.mon","interface.fullVersion":"releases/4.3.1_HF@151012","interface.language":"MonitorScript","interface.name":"DataViewService_Interface","interface.package":"com.apama.dataview","interface.vendor":"Apama","interface.version":"4.3.1.1"}
+2011-02-02 15:47:49.335 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [3] DataViewService implementation loaded. MetaData: {"implementation.fileName":"DataViewService_Impl_Dict.mon","implementation.fullVersion":"releases/4.3.1_HF@151012","implementation.language":"MonitorScript","implementation.name":"DataViewService_Impl_Dict","implementation.package":"com.apama.dataview","implementation.vendor":"Apama","implementation.version":"4.3.1.1"}
+2011-02-02 15:47:49.881 INFO  [5536] - Arena [4] ARENA loaded
+2011-02-02 15:47:49.881 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [3] [INFO]  onload().on_all_DataViewAddDefinition() - "Arena" - adding new DataView definition with name: "Arena", and exposed externally with scenarioId: "DV_Arena"
+2011-02-02 15:47:49.881 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [3] [INFO]  onload().on_all_DataViewAddDefinition() - "Data" - adding new DataView definition with name: "Data", and exposed externally with scenarioId: "DV_Data"
+2011-02-02 15:47:49.881 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [8] [INFO]  addDataViewItem() - "Data:0" - storing Item...
+2011-02-02 15:47:49.881 INFO  [5536] - Cell [10] Cell 9,9 Alive: true
+2011-02-02 15:47:49.881 INFO  [5536] - Cell [10] Spawned cell 9,9
+2011-02-02 15:47:49.881 INFO  [5536] - Cell [11] Spawned cell 8,8
+2011-02-02 15:47:49.881 INFO  [5536] - Cell [12] Spawned cell 8,9
+2011-02-02 15:47:49.881 INFO  [5536] - Cell [13] Spawned cell 8,10
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [14] Spawned cell 9,8
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [15] Spawned cell 9,10
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [16] Spawned cell 10,8
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [17] Spawned cell 10,9
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [18] Spawned cell 10,10
+2011-02-02 15:47:49.897 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:0" - storing Item...
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [15] Cell 9,10 Alive: true
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [19] Spawned cell 8,11
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [20] Spawned cell 9,11
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [21] Spawned cell 10,11
+2011-02-02 15:47:49.897 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:1" - storing Item...
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [20] Cell 9,11 Alive: true
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [22] Spawned cell 8,12
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [23] Spawned cell 9,12
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [24] Spawned cell 10,12
+2011-02-02 15:47:49.897 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:2" - storing Item...
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [17] Cell 10,9 Alive: true
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [25] Spawned cell 11,8
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [26] Spawned cell 11,9
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [27] Spawned cell 11,10
+2011-02-02 15:47:49.897 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:3" - storing Item...
+2011-02-02 15:47:49.897 INFO  [5536] - Cell [18] Cell 10,10 Alive: true
+2011-02-02 15:47:49.913 INFO  [5536] - Cell [28] Spawned cell 11,11
+2011-02-02 15:47:49.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:4" - storing Item...
+2011-02-02 15:47:49.913 INFO  [5536] - Cell [21] Cell 10,11 Alive: true
+2011-02-02 15:47:49.913 INFO  [5536] - Cell [29] Spawned cell 11,12
+2011-02-02 15:47:49.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:5" - storing Item...
+2011-02-02 15:47:49.913 INFO  [5536] - Cell [26] Cell 11,9 Alive: true
+2011-02-02 15:47:49.913 INFO  [5536] - Cell [30] Spawned cell 12,8
+2011-02-02 15:47:49.913 INFO  [5536] - Cell [31] Spawned cell 12,9
+2011-02-02 15:47:49.913 INFO  [5536] - Cell [32] Spawned cell 12,10
+2011-02-02 15:47:49.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:6" - storing Item...
+2011-02-02 15:47:49.913 INFO  [5536] - Cell [27] Cell 11,10 Alive: true
+2011-02-02 15:47:49.913 INFO  [5536] - Cell [33] Spawned cell 12,11
+2011-02-02 15:47:49.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:7" - storing Item...
+2011-02-02 15:47:49.913 INFO  [5536] - Cell [28] Cell 11,11 Alive: true
+2011-02-02 15:47:49.928 INFO  [5536] - Cell [34] Spawned cell 12,12
+2011-02-02 15:47:49.928 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:8" - storing Item...
+2011-02-02 15:47:50.225 INFO  [5536] - Arena [4] Tick: 1
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [13] Cell 8,10 Alive: true
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [15] Cell 9,10 Alive: false
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [16] Cell 10,8 Alive: true
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [17] Cell 10,9 Alive: false
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [18] Cell 10,10 Alive: false
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [21] Cell 10,11 Alive: false
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [24] Cell 10,12 Alive: true
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [27] Cell 11,10 Alive: false
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [32] Cell 12,10 Alive: true
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [35] Spawned cell 7,9
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [36] Spawned cell 7,10
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [37] Spawned cell 7,11
+2011-02-02 15:47:50.225 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:9" - storing Item...
+2011-02-02 15:47:50.225 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:1" - removing Item...
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [38] Spawned cell 9,7
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [39] Spawned cell 10,7
+2011-02-02 15:47:50.225 INFO  [5536] - Cell [40] Spawned cell 11,7
+2011-02-02 15:47:50.225 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:10" - storing Item...
+2011-02-02 15:47:50.225 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:3" - removing Item...
+2011-02-02 15:47:50.241 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:4" - removing Item...
+2011-02-02 15:47:50.241 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:5" - removing Item...
+2011-02-02 15:47:50.241 INFO  [5536] - Cell [41] Spawned cell 9,13
+2011-02-02 15:47:50.241 INFO  [5536] - Cell [42] Spawned cell 10,13
+2011-02-02 15:47:50.241 INFO  [5536] - Cell [43] Spawned cell 11,13
+2011-02-02 15:47:50.241 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:11" - storing Item...
+2011-02-02 15:47:50.241 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:7" - removing Item...
+2011-02-02 15:47:50.241 INFO  [5536] - Cell [44] Spawned cell 13,9
+2011-02-02 15:47:50.241 INFO  [5536] - Cell [45] Spawned cell 13,10
+2011-02-02 15:47:50.241 INFO  [5536] - Cell [46] Spawned cell 13,11
+2011-02-02 15:47:50.241 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:12" - storing Item...
+2011-02-02 15:47:50.553 INFO  [5536] - Arena [4] Tock: 2
+2011-02-02 15:47:50.553 INFO  [5536] - Cell [15] Cell 9,10 Alive: true
+2011-02-02 15:47:50.553 INFO  [5536] - Cell [17] Cell 10,9 Alive: true
+2011-02-02 15:47:50.553 INFO  [5536] - Cell [21] Cell 10,11 Alive: true
+2011-02-02 15:47:50.553 INFO  [5536] - Cell [27] Cell 11,10 Alive: true
+2011-02-02 15:47:50.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:13" - storing Item...
+2011-02-02 15:47:50.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:14" - storing Item...
+2011-02-02 15:47:50.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:15" - storing Item...
+2011-02-02 15:47:50.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:16" - storing Item...
+2011-02-02 15:47:50.897 INFO  [5536] - Arena [4] Tick: 3
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [10] Cell 9,9 Alive: false
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [12] Cell 8,9 Alive: true
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [14] Cell 9,8 Alive: true
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [15] Cell 9,10 Alive: false
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [17] Cell 10,9 Alive: false
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [19] Cell 8,11 Alive: true
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [20] Cell 9,11 Alive: false
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [21] Cell 10,11 Alive: false
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [23] Cell 9,12 Alive: true
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [25] Cell 11,8 Alive: true
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [26] Cell 11,9 Alive: false
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [27] Cell 11,10 Alive: false
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [28] Cell 11,11 Alive: false
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [29] Cell 11,12 Alive: true
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [31] Cell 12,9 Alive: true
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [33] Cell 12,11 Alive: true
+2011-02-02 15:47:50.897 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:0" - removing Item...
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [47] Spawned cell 7,8
+2011-02-02 15:47:50.897 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:17" - storing Item...
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [48] Spawned cell 8,7
+2011-02-02 15:47:50.897 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:18" - storing Item...
+2011-02-02 15:47:50.897 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:13" - removing Item...
+2011-02-02 15:47:50.897 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:14" - removing Item...
+2011-02-02 15:47:50.897 INFO  [5536] - Cell [49] Spawned cell 7,12
+2011-02-02 15:47:50.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:19" - storing Item...
+2011-02-02 15:47:50.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:2" - removing Item...
+2011-02-02 15:47:50.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:15" - removing Item...
+2011-02-02 15:47:50.913 INFO  [5536] - Cell [50] Spawned cell 8,13
+2011-02-02 15:47:50.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:20" - storing Item...
+2011-02-02 15:47:50.913 INFO  [5536] - Cell [51] Spawned cell 12,7
+2011-02-02 15:47:50.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:21" - storing Item...
+2011-02-02 15:47:50.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:6" - removing Item...
+2011-02-02 15:47:50.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:16" - removing Item...
+2011-02-02 15:47:50.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:8" - removing Item...
+2011-02-02 15:47:50.913 INFO  [5536] - Cell [52] Spawned cell 12,13
+2011-02-02 15:47:50.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:22" - storing Item...
+2011-02-02 15:47:50.913 INFO  [5536] - Cell [53] Spawned cell 13,8
+2011-02-02 15:47:50.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:23" - storing Item...
+2011-02-02 15:47:50.913 INFO  [5536] - Cell [54] Spawned cell 13,12
+2011-02-02 15:47:50.913 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:24" - storing Item...
+2011-02-02 15:47:51.210 INFO  [5536] - Arena [4] Tock: 4
+2011-02-02 15:47:51.210 INFO  [5536] - Cell [15] Cell 9,10 Alive: true
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [17] Cell 10,9 Alive: true
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [18] Killed cell 10,10
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [21] Cell 10,11 Alive: true
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [27] Cell 11,10 Alive: true
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [36] Cell 7,10 Alive: true
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [39] Cell 10,7 Alive: true
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [42] Cell 10,13 Alive: true
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [45] Cell 13,10 Alive: true
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [55] Spawned cell 10,10
+2011-02-02 15:47:51.225 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:25" - storing Item...
+2011-02-02 15:47:51.225 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:26" - storing Item...
+2011-02-02 15:47:51.225 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:27" - storing Item...
+2011-02-02 15:47:51.225 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:28" - storing Item...
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [56] Spawned cell 6,9
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [57] Spawned cell 6,10
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [58] Spawned cell 6,11
+2011-02-02 15:47:51.225 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:29" - storing Item...
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [59] Spawned cell 9,6
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [60] Spawned cell 10,6
+2011-02-02 15:47:51.225 INFO  [5536] - Cell [61] Spawned cell 11,6
+2011-02-02 15:47:51.241 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:30" - storing Item...
+2011-02-02 15:47:51.241 INFO  [5536] - Cell [62] Spawned cell 9,14
+2011-02-02 15:47:51.241 INFO  [5536] - Cell [63] Spawned cell 10,14
+2011-02-02 15:47:51.241 INFO  [5536] - Cell [64] Spawned cell 11,14
+2011-02-02 15:47:51.241 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:31" - storing Item...
+2011-02-02 15:47:51.241 INFO  [5536] - Cell [65] Spawned cell 14,9
+2011-02-02 15:47:51.241 INFO  [5536] - Cell [66] Spawned cell 14,10
+2011-02-02 15:47:51.241 INFO  [5536] - Cell [67] Spawned cell 14,11
+2011-02-02 15:47:51.241 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:32" - storing Item...
+2011-02-02 15:47:51.585 INFO  [5536] - Arena [4] Tick: 5
+2011-02-02 15:47:51.585 INFO  [5536] - Cell [12] Cell 8,9 Alive: false
+2011-02-02 15:47:51.585 INFO  [5536] - Cell [13] Cell 8,10 Alive: false
+2011-02-02 15:47:51.585 INFO  [5536] - Cell [14] Cell 9,8 Alive: false
+2011-02-02 15:47:51.585 INFO  [5536] - Cell [15] Cell 9,10 Alive: false
+2011-02-02 15:47:51.585 INFO  [5536] - Cell [16] Cell 10,8 Alive: false
+2011-02-02 15:47:51.585 INFO  [5536] - Cell [17] Cell 10,9 Alive: false
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [19] Cell 8,11 Alive: false
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [21] Cell 10,11 Alive: false
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [23] Cell 9,12 Alive: false
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [24] Cell 10,12 Alive: false
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [25] Cell 11,8 Alive: false
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [27] Cell 11,10 Alive: false
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [29] Cell 11,12 Alive: false
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [31] Cell 12,9 Alive: false
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [32] Cell 12,10 Alive: false
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [33] Cell 12,11 Alive: false
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [35] Cell 7,9 Alive: true
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [37] Cell 7,11 Alive: true
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [38] Cell 9,7 Alive: true
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [40] Cell 11,7 Alive: true
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [41] Cell 9,13 Alive: true
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [43] Cell 11,13 Alive: true
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [44] Cell 13,9 Alive: true
+2011-02-02 15:47:51.600 INFO  [5536] - Cell [46] Cell 13,11 Alive: true
+2011-02-02 15:47:51.600 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:17" - removing Item...
+2011-02-02 15:47:51.600 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:9" - removing Item...
+2011-02-02 15:47:51.600 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:18" - removing Item...
+2011-02-02 15:47:51.600 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:25" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:10" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:26" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:19" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:27" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:20" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:11" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:21" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:28" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:22" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:23" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:12" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:24" - removing Item...
+2011-02-02 15:47:51.616 INFO  [5536] - Cell [68] Spawned cell 6,8
+2011-02-02 15:47:51.616 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:33" - storing Item...
+2011-02-02 15:47:51.631 INFO  [5536] - Cell [69] Spawned cell 6,12
+2011-02-02 15:47:51.631 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:34" - storing Item...
+2011-02-02 15:47:51.631 INFO  [5536] - Cell [70] Spawned cell 8,6
+2011-02-02 15:47:51.631 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:35" - storing Item...
+2011-02-02 15:47:51.631 INFO  [5536] - Cell [71] Spawned cell 12,6
+2011-02-02 15:47:51.631 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:36" - storing Item...
+2011-02-02 15:47:51.631 INFO  [5536] - Cell [72] Spawned cell 8,14
+2011-02-02 15:47:51.631 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:37" - storing Item...
+2011-02-02 15:47:51.631 INFO  [5536] - Cell [73] Spawned cell 12,14
+2011-02-02 15:47:51.631 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:38" - storing Item...
+2011-02-02 15:47:51.647 INFO  [5536] - Cell [74] Spawned cell 14,8
+2011-02-02 15:47:51.647 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:39" - storing Item...
+2011-02-02 15:47:51.647 INFO  [5536] - Cell [75] Spawned cell 14,12
+2011-02-02 15:47:51.647 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:40" - storing Item...
+2011-02-02 15:47:52.147 INFO  [5536] - Arena [4] Tock: 6
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [10] Killed cell 9,9
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [13] Cell 8,10 Alive: true
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [15] Killed cell 9,10
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [16] Cell 10,8 Alive: true
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [17] Killed cell 10,9
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [20] Killed cell 9,11
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [21] Killed cell 10,11
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [24] Cell 10,12 Alive: true
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [26] Killed cell 11,9
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [27] Killed cell 11,10
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [28] Killed cell 11,11
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [32] Cell 12,10 Alive: true
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [35] Cell 7,9 Alive: false
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [37] Cell 7,11 Alive: false
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [38] Cell 9,7 Alive: false
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [40] Cell 11,7 Alive: false
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [41] Cell 9,13 Alive: false
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [43] Cell 11,13 Alive: false
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [44] Cell 13,9 Alive: false
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [46] Cell 13,11 Alive: false
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [55] Killed cell 10,10
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [57] Cell 6,10 Alive: true
+2011-02-02 15:47:52.147 INFO  [5536] - Cell [60] Cell 10,6 Alive: true
+2011-02-02 15:47:52.163 INFO  [5536] - Cell [63] Cell 10,14 Alive: true
+2011-02-02 15:47:52.163 INFO  [5536] - Cell [66] Cell 14,10 Alive: true
+2011-02-02 15:47:52.163 INFO  [5536] - Cell [76] Spawned cell 9,9
+2011-02-02 15:47:52.163 INFO  [5536] - Cell [77] Spawned cell 9,10
+2011-02-02 15:47:52.163 INFO  [5536] - Cell [78] Spawned cell 9,11
+2011-02-02 15:47:52.163 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:41" - storing Item...
+2011-02-02 15:47:52.163 INFO  [5536] - Cell [79] Spawned cell 10,9
+2011-02-02 15:47:52.163 INFO  [5536] - Cell [80] Spawned cell 11,9
+2011-02-02 15:47:52.163 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:42" - storing Item...
+2011-02-02 15:47:52.163 INFO  [5536] - Cell [81] Spawned cell 10,11
+2011-02-02 15:47:52.163 INFO  [5536] - Cell [82] Spawned cell 11,11
+2011-02-02 15:47:52.163 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:43" - storing Item...
+2011-02-02 15:47:52.163 INFO  [5536] - Cell [83] Spawned cell 11,10
+2011-02-02 15:47:52.163 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:44" - storing Item...
+2011-02-02 15:47:52.163 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:33" - removing Item...
+2011-02-02 15:47:52.178 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:34" - removing Item...
+2011-02-02 15:47:52.178 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:35" - removing Item...
+2011-02-02 15:47:52.178 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:36" - removing Item...
+2011-02-02 15:47:52.178 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:37" - removing Item...
+2011-02-02 15:47:52.178 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:38" - removing Item...
+2011-02-02 15:47:52.178 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:39" - removing Item...
+2011-02-02 15:47:52.178 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:40" - removing Item...
+2011-02-02 15:47:52.178 INFO  [5536] - Cell [84] Spawned cell 5,9
+2011-02-02 15:47:52.178 INFO  [5536] - Cell [85] Spawned cell 5,10
+2011-02-02 15:47:52.178 INFO  [5536] - Cell [86] Spawned cell 5,11
+2011-02-02 15:47:52.178 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:45" - storing Item...
+2011-02-02 15:47:52.178 INFO  [5536] - Cell [87] Spawned cell 9,5
+2011-02-02 15:47:52.178 INFO  [5536] - Cell [88] Spawned cell 10,5
+2011-02-02 15:47:52.178 INFO  [5536] - Cell [89] Spawned cell 11,5
+2011-02-02 15:47:52.178 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:46" - storing Item...
+2011-02-02 15:47:52.178 INFO  [5536] - Cell [90] Spawned cell 9,15
+2011-02-02 15:47:52.178 INFO  [5536] - Cell [91] Spawned cell 10,15
+2011-02-02 15:47:52.194 INFO  [5536] - Cell [92] Spawned cell 11,15
+2011-02-02 15:47:52.194 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:47" - storing Item...
+2011-02-02 15:47:52.194 INFO  [5536] - Cell [93] Spawned cell 15,9
+2011-02-02 15:47:52.194 INFO  [5536] - Cell [94] Spawned cell 15,10
+2011-02-02 15:47:52.194 INFO  [5536] - Cell [95] Spawned cell 15,11
+2011-02-02 15:47:52.194 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:48" - storing Item...
+2011-02-02 15:47:52.538 INFO  [5536] - Arena [4] Tick: 7
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [11] Killed cell 8,8
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [13] Cell 8,10 Alive: false
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [16] Cell 10,8 Alive: false
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [22] Killed cell 8,12
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [24] Cell 10,12 Alive: false
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [30] Killed cell 12,8
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [32] Cell 12,10 Alive: false
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [34] Killed cell 12,12
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [35] Cell 7,9 Alive: true
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [37] Cell 7,11 Alive: true
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [38] Cell 9,7 Alive: true
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [40] Cell 11,7 Alive: true
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [41] Cell 9,13 Alive: true
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [43] Cell 11,13 Alive: true
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [44] Cell 13,9 Alive: true
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [46] Cell 13,11 Alive: true
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [47] Killed cell 7,8
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [48] Killed cell 8,7
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [49] Killed cell 7,12
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [50] Killed cell 8,13
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [51] Killed cell 12,7
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [52] Killed cell 12,13
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [53] Killed cell 13,8
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [54] Killed cell 13,12
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [57] Cell 6,10 Alive: false
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [60] Cell 10,6 Alive: false
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [63] Cell 10,14 Alive: false
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [66] Cell 14,10 Alive: false
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [68] Killed cell 6,8
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [69] Killed cell 6,12
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [70] Killed cell 8,6
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [71] Killed cell 12,6
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [72] Killed cell 8,14
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [73] Killed cell 12,14
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [74] Killed cell 14,8
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [75] Killed cell 14,12
+2011-02-02 15:47:52.538 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:41" - removing Item...
+2011-02-02 15:47:52.538 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:42" - removing Item...
+2011-02-02 15:47:52.538 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:43" - removing Item...
+2011-02-02 15:47:52.538 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:44" - removing Item...
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [96] Spawned cell 6,8
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [97] Spawned cell 7,8
+2011-02-02 15:47:52.538 INFO  [5536] - Cell [98] Spawned cell 8,8
+2011-02-02 15:47:52.538 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:49" - storing Item...
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [99] Spawned cell 6,12
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [100] Spawned cell 7,12
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [101] Spawned cell 8,12
+2011-02-02 15:47:52.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:50" - storing Item...
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [102] Spawned cell 8,6
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [103] Spawned cell 8,7
+2011-02-02 15:47:52.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:51" - storing Item...
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [104] Spawned cell 12,6
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [105] Spawned cell 12,7
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [106] Spawned cell 12,8
+2011-02-02 15:47:52.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:52" - storing Item...
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [107] Spawned cell 8,13
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [108] Spawned cell 8,14
+2011-02-02 15:47:52.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:53" - storing Item...
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [109] Spawned cell 12,12
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [110] Spawned cell 12,13
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [111] Spawned cell 12,14
+2011-02-02 15:47:52.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:54" - storing Item...
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [112] Spawned cell 13,8
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [113] Spawned cell 14,8
+2011-02-02 15:47:52.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:55" - storing Item...
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [114] Spawned cell 13,12
+2011-02-02 15:47:52.553 INFO  [5536] - Cell [115] Spawned cell 14,12
+2011-02-02 15:47:52.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:56" - storing Item...
+2011-02-02 15:47:52.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:45" - removing Item...
+2011-02-02 15:47:52.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:46" - removing Item...
+2011-02-02 15:47:52.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:47" - removing Item...
+2011-02-02 15:47:52.553 INFO  [5536] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:48" - removing Item...

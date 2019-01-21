@@ -1,0 +1,31 @@
+2011-02-01 15:43:32.379 INFO  [5116] - com.apama.scenario.ScenarioService [0] ScenarioService interface loaded. MetaData: {"interface.fileName":"ScenarioService.mon","interface.fullVersion":"releases/4.3.1_HF@151012","interface.language":"MonitorScript","interface.name":"ScenarioService","interface.package":"com.apama.scenario","interface.vendor":"Apama","interface.version":"4.3.1.1"}
+2011-02-01 15:43:32.395 INFO  [5116] - com.apama.dataview.DataViewService_Interface [2] DataViewService interface loaded. MetaData: {"interface.fileName":"DataViewService_Interface.mon","interface.fullVersion":"releases/4.3.1_HF@151012","interface.language":"MonitorScript","interface.name":"DataViewService_Interface","interface.package":"com.apama.dataview","interface.vendor":"Apama","interface.version":"4.3.1.1"}
+2011-02-01 15:43:32.504 INFO  [5116] - com.apama.dataview.DataViewService_Impl_Dict [3] DataViewService implementation loaded. MetaData: {"implementation.fileName":"DataViewService_Impl_Dict.mon","implementation.fullVersion":"releases/4.3.1_HF@151012","implementation.language":"MonitorScript","implementation.name":"DataViewService_Impl_Dict","implementation.package":"com.apama.dataview","implementation.vendor":"Apama","implementation.version":"4.3.1.1"}
+2011-02-01 15:43:33.004 INFO  [5116] - Arena [4] ARENA loaded
+2011-02-01 15:43:33.004 INFO  [5116] - com.apama.dataview.DataViewService_Impl_Dict [3] [INFO]  onload().on_all_DataViewAddDefinition() - "Arena" - adding new DataView definition with name: "Arena", and exposed externally with scenarioId: "DV_Arena"
+2011-02-01 15:43:33.004 INFO  [5116] - com.apama.dataview.DataViewService_Impl_Dict [3] [INFO]  onload().on_all_DataViewAddDefinition() - "Data" - adding new DataView definition with name: "Data", and exposed externally with scenarioId: "DV_Data"
+2011-02-01 15:43:33.004 INFO  [5116] - com.apama.dataview.DataViewService_Impl_Dict [8] [INFO]  addDataViewItem() - "Data:0" - storing Item...
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [10] Cell 5,5 Alive: true
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [10] Spawned cell 5,5
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [11] Spawned cell 4,4
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [12] Spawned cell 4,5
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [13] Spawned cell 4,6
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [14] Spawned cell 5,4
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [15] Spawned cell 5,6
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [16] Spawned cell 6,4
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [17] Spawned cell 6,5
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [18] Spawned cell 6,6
+2011-02-01 15:43:33.004 INFO  [5116] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  addDataViewItem() - "Arena:0" - storing Item...
+2011-02-01 15:43:33.004 INFO  [5116] - Arena [4] Tick: 1
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [10] Cell 5,5 Alive: false
+2011-02-01 15:43:33.004 INFO  [5116] - com.apama.dataview.DataViewService_Impl_Dict [6] [INFO]  deleteDataViewItem() - "Arena:0" - removing Item...
+2011-02-01 15:43:33.004 INFO  [5116] - Arena [4] Tock: 2
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [10] Killed cell 5,5
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [11] Killed cell 4,4
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [12] Killed cell 4,5
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [13] Killed cell 4,6
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [14] Killed cell 5,4
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [15] Killed cell 5,6
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [16] Killed cell 6,4
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [17] Killed cell 6,5
+2011-02-01 15:43:33.004 INFO  [5116] - Cell [18] Killed cell 6,6

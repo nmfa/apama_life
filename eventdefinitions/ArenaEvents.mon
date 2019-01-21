@@ -1,0 +1,35 @@
+// TODO: Enter Apama events for sending here (one event per line). 
+// These should be based on Event Definitions in a MonitorScript (.mon) file. 
+
+// e.g. after injecting TickManagerSupport.mon, you could send in:
+// com.apama.marketdata.Depth("MSFT.O", [100.0, 99.9], [88.0], [], [10000, 20000], [14000], {"SERVICE_NAME": "MyMarketDataProviderName"})
+
+
+/**
+ * Create an arena of the given dimensions.
+ */
+event CreateArena
+{
+	integer width;
+	integer height;
+}
+
+/**
+ * Start the automatic passage of time.
+ */
+event StartTime {}
+
+/**
+ * Stop the automatic passage of time.
+ */
+event StopTime {}
+
+/**
+ * Trigger the passage of single quantum of time.
+ */
+event Tick {}
+
+/**
+ * Clear the arena.
+ */
+event Kill {}

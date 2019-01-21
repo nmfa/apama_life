@@ -1,0 +1,5 @@
+// Four ticks returns to the starting diagonal pattern shifted up and right by one cordinate.
+Tick()
+Tick()
+Tick()
+Tick()

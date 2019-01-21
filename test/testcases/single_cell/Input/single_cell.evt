@@ -1,0 +1,8 @@
+BirthCell(5, 5)
+
+// First tick will only kill initial cell
+// No monitors will be killed as all were either alive OR had neighbours at the start of the cycle.
+Tick()
+
+// All monitors will now be erased as they are dead and have no neighbours.
+Tick()

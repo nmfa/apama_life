@@ -1,0 +1,11 @@
+CreateArena(100, 100)
+
+BirthCell(49, 49)
+BirthCell(49, 50)
+BirthCell(49, 51)
+BirthCell(50, 49)
+BirthCell(50, 50)
+BirthCell(50, 51)
+BirthCell(51, 49)
+BirthCell(51, 50)
+BirthCell(51, 51)

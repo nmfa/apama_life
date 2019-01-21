@@ -1,0 +1,15 @@
+// TODO: Enter Apama events for sending here (one event per line). 
+// These should be based on Event Definitions in a MonitorScript (.mon) file. 
+
+// e.g. after injecting TickManagerSupport.mon, you could send in:
+// com.apama.marketdata.Depth("MSFT.O", [100.0, 99.9], [88.0], [], [10000, 20000], [14000], {"SERVICE_NAME": "MyMarketDataProviderName"})
+
+
+CreateArena(100, 100)
+
+BATCH 200
+BirthCell(55,55)
+BirthCell(55,56)
+BirthCell(56,56)
+BirthCell(54,55)
+BirthCell(55,54)
